@@ -3,7 +3,7 @@ const Stream = require('stream').Transform
 const http = require('http');
 const fs = require('fs');
 const app = express()
-const diff = require('diff')
+const diff = require('Diff')
 const path = require('path')
 const fse = require('fs-extra');
 const routes = require('./routes.json');
@@ -151,7 +151,8 @@ function exists(file) {
 	return false;
 }
 app.listen(process.env.PORT || 3000, () => {
-	log.push('[' + new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + '] Deltaféra elindult itt: http://localhost:3000<br>');
 	var port = process.env.PORT || 3000;
-	console.log('Deltaféra elindult itt: http://localhost:' + port)
+	log.push('[' + new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + '] Deltaféra elindult itt: http://localhost:' + port + '<br>');
+
+	console.log('Deltaféra elindult itt: http://localhost:'  + port)
 })

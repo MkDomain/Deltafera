@@ -35,7 +35,7 @@ Index: file.txt
 -                    <li class="rd-nav-item"><a class="rd-nav-link" href="#services">A diákok véleménye</a></li>
 -                    <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Elérhetőség</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#about">Az oldalról</a></li>
-+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#testimonials">Bemutatkozás</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#bemutatkozas">Bemutatkozás</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="bongeszo">Böngésző</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="jegyzetek#erettsegi">Érettségiről</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="velemeny">A diákok véleménye</a></li>
