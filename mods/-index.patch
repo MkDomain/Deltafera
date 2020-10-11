@@ -69,7 +69,7 @@ Index: file.txt
 +            <br><br>Kellemes böngészést és sikeres tanulást kívánok!<br><br>
 +            <a href="#bemutatkozas">Vizkievicz András</a>
 +			<h3>A Deltaféráról</h3>
-+			<br>A Deltaféra egy <a href="https://nodejs.org">Node.js</a>-ben írt alkalmazás amely futtatás közben módosítja a weboldalt. Feladata a weboldal "szabdalása" ezzel gyorsabb töltési idő és kisebb weboldal méret érhető el. A kód nem tartalmazza az eredeti weboldal kódját, a szoftver csak cache-eli az eredeti weboldalt, így nem kell minden kérésnél a bioszfera.com-ra csatlakozni.<br>Kérdések esetén: <a href="mailto:mkdomainyt@gmail.com">email cím</a>
++			<br>A Deltaféra egy <a href="https://nodejs.org">Node.js</a>-ben írt alkalmazás amely futtatás közben módosítja a weboldalt. Feladata a weboldal "szabdalása" ezzel gyorsabb töltési idő és kisebb weboldal méret érhető el. A kód nem tartalmazza az eredeti weboldal kódját, a szoftver csak cache-eli az eredeti weboldalt, így nem kell minden kérésnél a bioszfera.com-ra csatlakozni.<br>Kérdések esetén: <a href="mailto:mkdomainyt@gmail.com">email cím</a><br><a href="https://github.com/MkDomain/Deltafera">Forráskód</a>
 +          </p>
 +        </div>
 +    </section>
