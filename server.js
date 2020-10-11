@@ -1,16 +1,20 @@
 const express = require('express')
 const Stream = require('stream').Transform
 const http = require('http');
+const compression = require('compression');
 const fs = require('fs');
 const app = express()
 const diff = require('diff')
 const path = require('path')
 const fse = require('fs-extra');
+const axios = require('axios');
+var requester = require('sync-request')
 const routes = require('./routes.json');
 var mime = require('mime-types')
 var keys = Object.keys(routes);
 let cache = new Map();
 var log = new Stream();
+app.use(compression());
 app.get('/status', (req, resp) => {
 	var naplo = log.read();
 	var used = process.memoryUsage().heapUsed / 1024 / 1024;
@@ -27,6 +31,9 @@ app.get('/memory', (req, resp) => {
 	resp.header('Content-Type', 'text/html; charset=UTF-8');
 	resp.end('<a id="memory">Memória: ' + used + ' MB</a>');
 })
+function get(p) {
+	
+}
 keys.forEach(function(key, index) {
 	app.get(key, (req, resp) => {
 		if (routes[key]['rewrite'] !== undefined) {
@@ -44,7 +51,21 @@ keys.forEach(function(key, index) {
 					resp.end(d);
 				});
 			}
-		} else {
+		} else if (routes[key]['merge'] !== undefined) {
+			resp.header('Content-Type', mime.lookup(path.extname(req.originalUrl)));
+			if (cache.has(routes[key]['merge'])) {
+				resp.end(cache.get(routes[key]['merge']));
+			} else {
+				var merged = new Stream();
+				routes[key]['merge'].split(';').forEach(function(k,i) {
+					var res = requester('GET', 'http://bioszfera.com/' + k)
+					merged.push(res.getBody())
+				})
+				var merged2 = merged.read() + '';
+				cache.set(routes[key]['merge'],merged2);
+				resp.end(cache.get(routes[key]['merge']));
+			}
+		}else {
 			var modding = routes[key]['mod'] == 'none' ? false : true;
 			req.originalUrl = req.originalUrl == '/' ? '/index.html' : req.originalUrl;
 			var original = routes[key]['original'].replace('$REQ', req.originalUrl);
@@ -54,11 +75,11 @@ keys.forEach(function(key, index) {
 						if (e) {
 							console.log(e);
 						}
-						resp.header('Content-Type', mime.lookup(path.extname(req.originalUrl)));
+						resp.header('Content-Type', mime.lookup(path.extname(req.originalUrl)) + '; charset=UTF-8');
 						resp.end(diff.applyPatch(cache.get(original) + '', d + ''));
 					});
 				} else {
-					resp.header('Content-Type', mime.lookup(path.extname(req.originalUrl)));
+					resp.header('Content-Type', mime.lookup(path.extname(req.originalUrl)) + '; charset=UTF-8');
 					resp.end(cache.get(original));
 				}
 			} else {

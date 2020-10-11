@@ -2,7 +2,7 @@ Index: file.txt
 ===================================================================
 --- file.txt	
 +++ file.txt	
-@@ -1,8 +1,8 @@
+@@ -1,18 +1,20 @@
  <!DOCTYPE html>
  <html class="wide wow-animation" lang="hu">
    <head>
@@ -12,7 +12,20 @@ Index: file.txt
      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta charset="utf-8">
-@@ -50,290 +50,22 @@
++	<meta name="description" content="A Biológia tanuláshoz elengedhetetlen oldal, a Bioszfera.com módosított változata.">
+     <!--<link rel="icon" href="images/favicon.png" type="image/x-icon">-->
+     <!-- Stylesheets-->
+     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface%7CLato:300i,400,900%7CMontserrat:100,300,400,500,600,700,900">
+-    <link rel="stylesheet" href="css/bootstrap.css">
++   <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/fonts.css">
+     <link rel="stylesheet" href="css/style.css" id="main-styles-link">
++	<link rel="shortcut icon" href="favicon.ico" />
+     <!--[if lt IE 10]>
+     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+     <script src="js/html5shiv.min.js"></script>
+     <![endif]-->
+@@ -50,290 +52,22 @@
                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
                  </div>
                  <div class="rd-navbar-nav-wrap">
@@ -309,7 +322,7 @@ Index: file.txt
          <div class="container text-center">
            <br><br><br>
            <h2>Emelt szintű jegyzetek</h2>
-@@ -559,62 +291,17 @@
+@@ -559,62 +293,17 @@
    </div>
          </div>
        </section>
@@ -374,7 +387,7 @@ Index: file.txt
                <ul class="list-marked-3">
                  <li><b><font color="#FFFFFF"><u>NAT 2020</u></font></b>
                    <ul class="list-marked-3">
-@@ -660,485 +347,45 @@
+@@ -660,485 +349,45 @@
              </div>
  </div>
          </div>

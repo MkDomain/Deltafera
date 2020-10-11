@@ -2,18 +2,36 @@ Index: file.txt
 ===================================================================
 --- file.txt	
 +++ file.txt	
-@@ -1,8 +1,8 @@
+@@ -1,18 +1,20 @@
  <!DOCTYPE html>
  <html class="wide wow-animation" lang="hu">
    <head>
 -    <title>Bioszféra</title>
-+    <title>Deltaféra</title>
++    <title>Deltaféra - Bioszféra módosítás</title>
      <meta name="format-detection" content="telephone=no">
      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta charset="utf-8">
-@@ -50,15 +50,14 @@
-                   <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
++	<meta name="description" content="A Biológia tanuláshoz elengedhetetlen oldal, a Bioszfera.com módosított változata.">
+     <!--<link rel="icon" href="images/favicon.png" type="image/x-icon">-->
+     <!-- Stylesheets-->
+     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface%7CLato:300i,400,900%7CMontserrat:100,300,400,500,600,700,900">
+-    <link rel="stylesheet" href="css/bootstrap.css">
++	<link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/fonts.css">
+     <link rel="stylesheet" href="css/style.css" id="main-styles-link">
++	<link rel="shortcut icon" href="favicon.ico" />
+     <!--[if lt IE 10]>
+     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+     <script src="js/html5shiv.min.js"></script>
+     <![endif]-->
+@@ -46,19 +48,18 @@
+             <div class="rd-navbar-main-outer">
+               <div class="rd-navbar-main">
+                 <div class="rd-navbar-panel">
+                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
++                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img alt="logo" class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
                  </div>
                  <div class="rd-navbar-nav-wrap">
                    <ul class="rd-navbar-nav">
@@ -34,12 +52,12 @@ Index: file.txt
                  </div>
                </div>
              </div>
-@@ -70,29 +69,46 @@
+@@ -70,39 +71,56 @@
          <div class="section-xxl context-dark text-center">
            <div class="container">
              <div class="row justify-content-center">
                <div class="col-12 overflow-hidden">
-+			    <h1><span class="wow fadeInUp" data-wow-delay="200ms">Deltaféra</span></h1><br>
++			    <h1><span class="wow fadeInUp" data-wow-delay="200ms">Deltaféra - Bioszféra módosulat</span></h1><br>
                  <div class="group-md">
                    <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#emeltszintujegyzetek">Jegyzetek</a></p>
  				  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#alaporasjegyzetek">NAT 2020</a></p>
@@ -65,7 +83,7 @@ Index: file.txt
 +        <div class="container text-center">
 +          <h2>Tisztelt Látogató!</h2>
 +            <p class="body" align="justify"> 
-+            <br>Ez az oldal azzal a szándékkal jött létre, hogy segítséget nyújtson azoknak a középiskolás diákoknak, akik valamilyen okból az átlagosnál nagyobb érdeklődést mutatnak a biológia tudománya iránt. A fokozott figyelem lehet csak egyszerű érdeklődés, de fakadhat továbbtanulási szándékból is. Számukra készültek azok a jegyzetek, amelyek segítenek felkészülni az emelt szintű biológia érettségi vizsgára. Továbbá a 2020 NAT menüpont alatt - mely a lapozóból vagy a <a href="http://www.bioszfera.com/#alaporasjegyzetek">böngészőből érhető el</a> - a 2020 szeptemberétől bevezetendő új NAT által meghatározott kerettanterv szerint összeállított jegyzetek találhatók. Az egyes fejezetek az aktuális követelményeknek megfelelően folyamatosan frissülnek.
++            <br>Ez az oldal azzal a szándékkal jött létre, hogy segítséget nyújtson azoknak a középiskolás diákoknak, akik valamilyen okból az átlagosnál nagyobb érdeklődést mutatnak a biológia tudománya iránt. A fokozott figyelem lehet csak egyszerű érdeklődés, de fakadhat továbbtanulási szándékból is. Számukra készültek azok a jegyzetek, amelyek segítenek felkészülni az emelt szintű biológia érettségi vizsgára. Továbbá a 2020 NAT menüpont alatt - mely a lapozóból vagy a <a href="bongeszo">böngészőből érhető el</a> - a 2020 szeptemberétől bevezetendő új NAT által meghatározott kerettanterv szerint összeállított jegyzetek találhatók. Az egyes fejezetek az aktuális követelményeknek megfelelően folyamatosan frissülnek.
 +            <br><br>Kellemes böngészést és sikeres tanulást kívánok!<br><br>
 +            <a href="#bemutatkozas">Vizkievicz András</a>
 +			<h3>A Deltaféráról</h3>
@@ -85,9 +103,35 @@ Index: file.txt
 +  <div id="hirdetesshowhide" class="NO-collapse">
    <br>
              <p align="justify">
-               <strong>A <font color="blue">bioszfera.com</font> egyéni és kiscsoportos <font color="orange">emelt szintű biológia érettségi előkészítő</font> tanfolyamot indít <font color="red"> 2020 szeptember 8-tól.</font> Kellő számú érdeklődő esetén <font color="yelloy">kémia és fizika emelt szintű érettségi előkészítőt</font> is szervezünk.</strong><br><br> 
+-              <strong>A <font color="blue">bioszfera.com</font> egyéni és kiscsoportos <font color="orange">emelt szintű biológia érettségi előkészítő</font> tanfolyamot indít <font color="red"> 2020 szeptember 8-tól.</font> Kellő számú érdeklődő esetén <font color="yelloy">kémia és fizika emelt szintű érettségi előkészítőt</font> is szervezünk.</strong><br><br> 
++              A <font color="blue">bioszfera.com</font> egyéni és kiscsoportos <font color="orange">emelt szintű biológia érettségi előkészítő</font> tanfolyamot indít <font color="red"> 2020 szeptember 8-tól.</font> Kellő számú érdeklődő esetén <font color="yelloy">kémia és fizika emelt szintű érettségi előkészítőt</font> is szervezünk.<br><br> 
                    <strong>A kémia tanfolyam</strong> helyszínei: Fazekas Mihály Gimnázium, az oktató Albert Attila, ill. ELTE Radnóti Gyakorlóiskola, oktató Albert Viktor, továbbá a Városmajori Gimnázium, oktató Karácsonyi Virág.
-@@ -129,20 +145,8 @@
+ 				  Elérhetőségek: albert.attila67@gmail.com, albertv001@gmail.com<br><br> 
+ 				  <strong>A fizika órákat</strong> Molnár Gábor tartja Újbuda-központban. Elérhetőségei: a bioszfera.com-on keresztül, továbbá: mgbphun@gmail.com <br><br>
+ 				  <strong>A biológia tanfolyam</strong> 28 héten keresztül, heti 4 órában kerül megtartásra, összesen 112 órában. Az oktatás <b>kiscsoportos</b> keretek között zajlik.<br><br> 
+ 				  <font color="red">Jelentkezni emailben van lehetőség: vizkieviczandras@gmail.com.</font> A végleges jelentkezés határideje  <font color="red">szeptember 1.</font><br>
+ 				  <br>
+-				  <strong>A tanfolyam kezdési időpontja szeptember 8. Az órák kedden és csütörtökön 16-17:30-ig, ill. szerdán és pénteken szintén 16-17:30-ig lesznek. Esetleges ismételt kijárási korlátozás elrendelése esetén a tanfolyam online keretek között, változatlan feltételek mellett folytatódik.  </strong><br><br>
++				  A tanfolyam kezdési időpontja szeptember 8. Az órák kedden és csütörtökön 16-17:30-ig, ill. szerdán és pénteken szintén 16-17:30-ig lesznek. Esetleges ismételt kijárási korlátozás elrendelése esetén a tanfolyam online keretek között, változatlan feltételek mellett folytatódik.  <br><br>
+                   <br>
+                   A biológia tananyag feldolgozása a <strong><font color="blue"><a href="">bioszfera.com</a></font></strong> oldalon, az <strong><b>emelt szintű jegyzetek</b></strong> menüben található tematika alapján történik. A tanítás célja az érettségi követelményrendszerben megfogalmazott kompetenciák elsajátítása. Az oktatás metodikája alapvetően probléma- és feladatmegoldásra épül.<br><br>
+                   <strong><u>Az órákon:</u></strong>
+             </p>
+@@ -116,11 +134,11 @@
+               <li>elsajátítjuk annak a képességét, hogy a vizsgázó önállóan és logikus gondolatmenetbe illesztve, összefüggően és a nyelvhelyesség szabályainak megfelelően legyen képes megfogalmazni mondanivalóját.</li>
+             </ul>
+             <br>
+             <p align="justify">A felkészítés garanciája munkaközösségünk kiváló felkészültsége, továbbá a tanfolyamot vezető tanár 28 éves tanítási és sikeres érettségire felkészítő tapasztalata, illetve vizsgáztatói gyakorlata. A tanfolyamot vezető tanár Vizkievicz András, aki a kétszintű érettségi bevezetése óta, 14 éve folyamatosan ellát írásbelivel kapcsolatosan javítótanári, javításvezetői, szóbelin kérdezőtanári, ill. vizsgaelnöki feladatokat. A korábbi érettségi rendszerben pedig a felvételi feladatsorok készítésében közreműködött, mint feladatkészítő tanár.<br><br>
+-              Korábbi fakultációs csoportok diákjainak ajánlásai olvashatók <b><u><font color="green"><a href="#services"><strong>itt.</strong></a></font></u></b><br><br>
++              Korábbi fakultációs csoportok diákjainak ajánlásai olvashatók <b><u><font color="green"><a href="velemeny"><strong>itt.</strong></a></font></u></b><br><br>
+               Az előző évi előkészítő tanfolyamon résztvevő diákok értékelése olvasható <a target="_blank" href="http://bioszfera.com/downloads/Az elokeszito tanfolyam ertekelese 2019.pdf"><strong><u>itt.</u></strong></a></font></u></b><br><br> 
+-			  A tanfolyamot vezető tanár Vizkievicz András bemutatkozása olvasható <b><u><font color="green"><a href="#testimonials"><strong>itt.</strong></a></font></b></u><br><br>Érdeklődni lehet <strong><b>Vizkievicz András</b></strong> vezető tanárnál, email-ben, telefonon vagy személyesen a Városmajori Gimnáziumban.<br><br>
++			  A tanfolyamot vezető tanár Vizkievicz András bemutatkozása olvasható <b><u><font color="green"><a href="#bemutatkozas"><strong>itt.</strong></a></font></b></u><br><br>Érdeklődni lehet <strong><b>Vizkievicz András</b></strong> vezető tanárnál, email-ben, telefonon vagy személyesen a Városmajori Gimnáziumban.<br><br>
+               <b><u><font color="green"><strong>Elérhetőségek:</strong></font></u></b> vizkieviczandras@gmail.com, telefon: 06308151140, Városmajori Gimnázium 1122 Városmajor u. 71.<br><br>
+ 			  <b><u><font color="green"><strong>Eredmények:</strong></font></u></b>
+ 			  A 2019 májusban végzett biológia fakultációs csoport diákjainak az írásbelin elért átlag teljesítménye 90%-os volt, 12 vizsgázóból 8-an értek el 90%-os, ill. a feletti eredményt. A 3 legjobb teljesítmény 98%, 96%, 94%-os volt.
+               A kiváló eredményt elért diákok tehetségesek, szorgalmasok, céltudatosak, ambiciózusak és nem utolsó sorban kitartóak voltak. Bárki számára elérhető cél e fenti eredmény, amennyiben az említett képességeket birtokolja.<br><br>
+@@ -129,20 +147,8 @@
  </div>
          </div>
        </section>
@@ -108,7 +152,7 @@ Index: file.txt
        <section class="section section-md context-dark bg-image text-center" id="originalbioszfera" data-type="anchor" style="background-image: url(images2//pharma.jpg)">
          <div class="container text-center">
              <p class="body" align="left">
-@@ -151,9 +155,9 @@
+@@ -151,9 +157,9 @@
            </p>
          </div>
        </section>
@@ -119,7 +163,7 @@ Index: file.txt
            <h4 class="font-weight-bold">Bemutatkozás</h4>
            <br>          
            <div>
-@@ -189,956 +193,9 @@
+@@ -189,956 +195,9 @@
              </div>
            </div>
          </div>

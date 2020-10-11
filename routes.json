@@ -26,8 +26,14 @@
 	"/images2/logobioszfera.png": {
 		"rewrite": "logobioszfera.png"
 	},
+	"/favicon.ico": {
+		"rewrite": "favicon.ico"
+	},
 	"/images2//logobioszfera.png": {
 		"rewrite": "logobioszfera.png"
+	},
+	"/css/styles.css": {
+		"merge": "/css/style.css;/css/fonts.css"
 	},
 	"/(*)?": {
 		"original": "$REQ",

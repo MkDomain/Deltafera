@@ -8,9 +8,12 @@
 		"start": "node server.js"
 	},
 	"dependencies": {
+		"axios": "^0.20.0",
+		"compression": "^1.7.4",
 		"diff": "^4.0.2",
 		"express": "^4.17.1",
 		"fs-extra": "^9.0.1",
-		"mime-types": "^2.1.27"
+		"mime-types": "^2.1.27",
+		"sync-request": "^6.1.0"
 	}
 }

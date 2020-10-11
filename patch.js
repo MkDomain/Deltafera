@@ -8,9 +8,9 @@ const readline = require("readline");
 });*/
 
 //CONFIG
-var input = 'index.html';
-var patched = 'index2.html';
-var page = '-index';
+var input = 'private/index.html';
+var patched = ['private/egyebek.html','private/index2.html','private/jegyzetek.html','private/velemeny.html','private/bongeszo.html'];
+var page = ['-egyebek','-index','-jegyzetek','-velemeny','-bongeszo'];
 
 function createPatch(original, modified) {
 	return diff.createPatch('file.txt', original, modified, '', '');
@@ -24,14 +24,16 @@ function makePatch(page, patch) {
 		console.log("The file was saved!");
 	});
 }
-fs.readFile(input, 'utf8', function(e, d) {
-	if (e) {
-		console.log(e); 
-	}
-	fs.readFile(patched, 'utf8', function(err, data) {
-		if (err) {
-			console.log(err); 
+patched.forEach(function(item, index) {
+	fs.readFile(input, 'utf8', function(e, d) {
+		if (e) {
+			console.log(e); 
 		}
-		makePatch(page, createPatch(d + '', data + ''))
+		fs.readFile(item, 'utf8', function(err, data) {
+			if (err) {
+				console.log(err); 
+			}
+			makePatch(page[index], createPatch(d + '', data + ''))
+		});
 	});
-});
+})
