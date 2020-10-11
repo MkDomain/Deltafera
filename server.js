@@ -150,7 +150,7 @@ function exists(file) {
 	}
 	return false;
 }
-app.listen(3000, () => {
+app.listen(80, () => {
 	log.push('[' + new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + '] Deltaféra elindult itt: http://localhost:3000<br>');
-	console.log('Deltaféra elindult itt: http://localhost:3000')
+	console.log('Deltaféra elindult itt: http://localhost:80')
 })
