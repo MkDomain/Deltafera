@@ -1,0 +1,16 @@
+{
+	"name": "Deltafera",
+	"description": "A bioszfera.com változtató szerver.",
+	"author": "MkDomain",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"diff": "^4.0.2",
+		"express": "^4.17.1",
+		"fs-extra": "^9.0.1",
+		"mime-types": "^2.1.27"
+	}
+}
