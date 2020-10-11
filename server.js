@@ -15,6 +15,7 @@ var keys = Object.keys(routes);
 let cache = new Map();
 var log = new Stream();
 app.use(compression());
+app.disable('x-powered-by');
 app.get('/status', (req, resp) => {
 	var naplo = log.read();
 	var used = process.memoryUsage().heapUsed / 1024 / 1024;
@@ -31,9 +32,6 @@ app.get('/memory', (req, resp) => {
 	resp.header('Content-Type', 'text/html; charset=UTF-8');
 	resp.end('<a id="memory">Memória: ' + used + ' MB</a>');
 })
-function get(p) {
-	
-}
 keys.forEach(function(key, index) {
 	app.get(key, (req, resp) => {
 		if (routes[key]['rewrite'] !== undefined) {
