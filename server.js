@@ -14,7 +14,6 @@ var mime = require('mime-types')
 var keys = Object.keys(routes);
 let cache = new Map();
 var log = new Stream();
-app.use(compression());
 app.get('/status', (req, resp) => {
 	var naplo = log.read();
 	var used = process.memoryUsage().heapUsed / 1024 / 1024;
@@ -148,6 +147,7 @@ keys.forEach(function(key, index) {
 		}
 	})
 });
+app.use(compression());
 
 function ensureDirectoryExistence(filePath) {
 	var dirname = path.dirname(filePath);
