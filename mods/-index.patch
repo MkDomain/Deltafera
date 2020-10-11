@@ -1,0 +1,1078 @@
+Index: file.txt
+===================================================================
+--- file.txt	
++++ file.txt	
+@@ -1,8 +1,8 @@
+ <!DOCTYPE html>
+ <html class="wide wow-animation" lang="hu">
+   <head>
+-    <title>Bioszféra</title>
++    <title>Deltaféra</title>
+     <meta name="format-detection" content="telephone=no">
+     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta charset="utf-8">
+@@ -50,15 +50,14 @@
+                   <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
+                 </div>
+                 <div class="rd-navbar-nav-wrap">
+                   <ul class="rd-navbar-nav">
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#about">Az oldalról</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#testimonials">Bemutatkozás</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#lapozo">Lapozó</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#bongeszo">Böngésző</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#erettsegi">Érettségiről</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#services">A diákok véleménye</a></li>
+-                    <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Elérhetőség</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#about">Az oldalról</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#bemutatkozas">Bemutatkozás</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="bongeszo">Böngésző</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="jegyzetek#erettsegi">Érettségiről</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="velemeny">A diákok véleménye</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="http://bioszfera.com#contacts">Elérhetőség</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+@@ -70,29 +69,46 @@
+         <div class="section-xxl context-dark text-center">
+           <div class="container">
+             <div class="row justify-content-center">
+               <div class="col-12 overflow-hidden">
++			    <h1><span class="wow fadeInUp" data-wow-delay="200ms">Deltaféra</span></h1><br>
+                 <div class="group-md">
+                   <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#emeltszintujegyzetek">Jegyzetek</a></p>
+ 				  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#alaporasjegyzetek">NAT 2020</a></p>
+                   <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#feladatok">Feladatok</a></p>
+                   <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#animaciok">Animációk</a></p>
+-                  <br><br>
++                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#about">Az oldalról</a></p>
++                  <br>
+                 </div>
+-                <h1><span class="wow fadeInUp" data-wow-delay="200ms">Bioszféra</span></h1>
+-                <br><br>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+   
+-      <section class="section section-md bg-gray-100 text-center" id="erettsegielokeszito" data-type="anchor">
++
++
++      
++	  <section class="section section-md bg-gray-100" id="about" data-type="anchor">
++        <div class="container text-center">
++          <h2>Tisztelt Látogató!</h2>
++            <p class="body" align="justify"> 
++            <br>Ez az oldal azzal a szándékkal jött létre, hogy segítséget nyújtson azoknak a középiskolás diákoknak, akik valamilyen okból az átlagosnál nagyobb érdeklődést mutatnak a biológia tudománya iránt. A fokozott figyelem lehet csak egyszerű érdeklődés, de fakadhat továbbtanulási szándékból is. Számukra készültek azok a jegyzetek, amelyek segítenek felkészülni az emelt szintű biológia érettségi vizsgára. Továbbá a 2020 NAT menüpont alatt - mely a lapozóból vagy a <a href="http://www.bioszfera.com/#alaporasjegyzetek">böngészőből érhető el</a> - a 2020 szeptemberétől bevezetendő új NAT által meghatározott kerettanterv szerint összeállított jegyzetek találhatók. Az egyes fejezetek az aktuális követelményeknek megfelelően folyamatosan frissülnek.
++            <br><br>Kellemes böngészést és sikeres tanulást kívánok!<br><br>
++            <a href="#bemutatkozas">Vizkievicz András</a>
++			<h3>A Deltaféráról</h3>
++			<br>A Deltaféra egy <a href="https://nodejs.org">Node.js</a>-ben írt alkalmazás amely futtatás közben módosítja a weboldalt. Feladata a weboldal "szabdalása" ezzel gyorsabb töltési idő és kisebb weboldal méret érhető el. A kód nem tartalmazza az eredeti weboldal kódját, a szoftver csak cache-eli az eredeti weboldalt, így nem kell minden kérésnél a bioszfera.com-ra csatlakozni.<br>Kérdések esetén: <a href="mailto:mkdomainyt@gmail.com">email cím</a>
++          </p>
++        </div>
++    </section>
++	
++	<section class="section parallax-container context-dark" id="erdoelvalaszto" data-parallax-img="images2//2biotechnology.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
++	
++	      <section class="section section-md bg-gray-100 text-center" id="erettsegielokeszito" data-type="anchor">
+         <div class="container">
+           <p class="subtitle"><span><font color="brown">Emelt szintű érettségi előkészítő</font></span></p>
+           <br><br>
+-  <a href="#hirdetesshowhide" data-toggle="collapse">Megjelenítése / eltüntetés</a>
+-  <div id="hirdetesshowhide" class="collapse">
++  <div id="hirdetesshowhide" class="NO-collapse">
+   <br>
+             <p align="justify">
+               <strong>A <font color="blue">bioszfera.com</font> egyéni és kiscsoportos <font color="orange">emelt szintű biológia érettségi előkészítő</font> tanfolyamot indít <font color="red"> 2020 szeptember 8-tól.</font> Kellő számú érdeklődő esetén <font color="yelloy">kémia és fizika emelt szintű érettségi előkészítőt</font> is szervezünk.</strong><br><br> 
+                   <strong>A kémia tanfolyam</strong> helyszínei: Fazekas Mihály Gimnázium, az oktató Albert Attila, ill. ELTE Radnóti Gyakorlóiskola, oktató Albert Viktor, továbbá a Városmajori Gimnázium, oktató Karácsonyi Virág.
+@@ -129,20 +145,8 @@
+ </div>
+         </div>
+       </section>
+ 
+-<section class="section parallax-container context-dark" id="erdoelvalaszto" data-parallax-img="images2//2biotechnology.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-      
+-	  <section class="section section-md bg-gray-100" id="about" data-type="anchor">
+-        <div class="container text-center">
+-          <h2>Tisztelt Látogató!</h2>
+-            <p class="body" align="justify"> 
+-            <br>Ez az oldal azzal a szándékkal jött létre, hogy segítséget nyújtson azoknak a középiskolás diákoknak, akik valamilyen okból az átlagosnál nagyobb érdeklődést mutatnak a biológia tudománya iránt. A fokozott figyelem lehet csak egyszerű érdeklődés, de fakadhat továbbtanulási szándékból is. Számukra készültek azok a jegyzetek, amelyek segítenek felkészülni az emelt szintű biológia érettségi vizsgára. Továbbá a 2020 NAT menüpont alatt - mely a lapozóból vagy a <a href="http://www.bioszfera.com/#alaporasjegyzetek">böngészőből érhető el</a> - a 2020 szeptemberétől bevezetendő új NAT által meghatározott kerettanterv szerint összeállított jegyzetek találhatók. Az egyes fejezetek az aktuális követelményeknek megfelelően folyamatosan frissülnek.
+-            <br><br>Kellemes böngészést és sikeres tanulást kívánok!<br><br>
+-            <a href="#testimonials">Vizkievicz András</a>
+-          </p>
+-        </div>
+-    </section>
+ 
+       <section class="section section-md context-dark bg-image text-center" id="originalbioszfera" data-type="anchor" style="background-image: url(images2//pharma.jpg)">
+         <div class="container text-center">
+             <p class="body" align="left">
+@@ -151,9 +155,9 @@
+           </p>
+         </div>
+       </section>
+ 
+-      <section class="section bg-default text-left section-lg" id="testimonials" data-type="anchor">
++      <section class="section bg-default text-left section-lg" id="bemutatkozas" data-type="anchor">
+         <div class="container text-center">
+           <h4 class="font-weight-bold">Bemutatkozás</h4>
+           <br>          
+           <div>
+@@ -189,956 +193,9 @@
+             </div>
+           </div>
+         </div>
+       </section>
+-    
+-      <section class="section section-md context-dark bg-image text-center" id="lapozo" data-type="anchor" style="background-image: url(images2//pattern-bg.jpg)">
+-        <div class="container">
+-          <p class="subtitle">Lapozó</p>
+-        <div class="owl-carousel carousel-project" data-items="1" data-md-items="1" data-dots="true" data-nav="true" data-stage-padding="15" data-md-stage-padding="150" data-xl-stage-padding="200" data-xxl-stage-padding="350" data-loop="true" data-autoplay="true" data-center="true" data-margin="30" data-xl-margin="0" data-xxl-margin="0" data-mouse-drag="false" data-nav-text="[&quot;Vissza&quot;, &quot;Előre&quot;]">
+-          <div class="box-project">
+-            <div class="box-project-image"><img src="images2//jegyzet_meretezve.jpg" alt="" width="632" height="375"/>
+-            </div>
+-            <div class="box-project-body">
+-              <div class="box-project-inner">
+-                <h5 class="box-project-title"><a href="#emeltszintujegyzetek">Emelt szintű jegyzetek</a></h5> 
+-              </div>
+-            </div>
+-          </div>
+-          <div class="box-project">
+-              <div class="box-project-image"><img src="images2//konyv_meretezve.jpg" alt="" width="632" height="375"/>
+-              </div>
+-              <div class="box-project-body">
+-                <div class="box-project-inner">
+-                  <h5 class="box-project-title"><a href="#alaporasjegyzetek">NAT 2020</a></h5>
+-                </div>
+-              </div>
+-          </div>
+-          <div class="box-project">
+-            <div class="box-project-image"><img src="images2//animacio.jpg" alt="" width="632" height="375"/>
+-            </div>
+-            <div class="box-project-body">
+-              <div class="box-project-inner">
+-                <h5 class="box-project-title"><a href="#animaciok">Animációk</a></h5>
+-              </div>
+-            </div>
+-          </div>
+-          <div class="box-project">
+-            <div class="box-project-image"><img src="images2//tanulok_meretezve.jpg" alt="" width="632" height="375"/>
+-            </div>
+-            <div class="box-project-body">
+-              <div class="box-project-inner">
+-                <h5 class="box-project-title"><a href="#erettsegi">Érettségiről</a></h5>
+-              </div>
+-            </div>
+-          </div>
+-          <div class="box-project">
+-            <div class="box-project-image"><img src="images2//brain.jpg" alt="" width="632" height="375"/>
+-            </div>
+-            <div class="box-project-body">
+-              <div class="box-project-inner">
+-                <h5 class="box-project-title"><a href="#feladatok">Feladatok</a></h5>
+-              </div>
+-            </div>
+-          </div>
+-        </div>
+-        </div>
+-      </section>
+ 
+-      <section class="section section-md bg-default text-center" id="bongeszo" data-type="anchor">
+-        <div class="container">
+-          <p class="subtitle"><span>Böngésző</span></p>
+-          <div class="isotope-wrap">
+-            <br><br>
+-            <div class="isotope row row-30" data-isotope-layout="fitRows" data-isotope-group="gallery">
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="box-portfolio" href="#emeltszintujegyzetek">
+-                  <figure><img src="images2//jegyzet_meretezve.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">Emelt szintű jegyzetek</h5>
+-                  </div></a>
+-              </div>
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="box-portfolio" href="#alaporasjegyzetek">
+-                  <figure><img src="images2//konyv_meretezve.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">NAT 2020</h5>
+-                  </div></a>
+-              </div>
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="box-portfolio" href="#animaciok">
+-                  <figure><img src="images2//animacio.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">Animációk</h5>
+-                  </div></a>
+-              </div>
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="box-portfolio" href="#erettsegi">
+-                  <figure><img src="images2//tanulok_meretezve.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">Érettségiről</h5>
+-                  </div></a>
+-              </div>
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="box-portfolio" href="#feladatok">
+-                  <figure><img src="images2//brain.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">Feladatok</h5>
+-                  </div></a>
+-              </div>
+-              <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="box-portfolio" href="#hamarnembirod">
+-                  <figure><img src="images2//enekes_meretezve.jpg" alt="" width="370" height="280"/>
+-                  </figure>
+-                  <div class="caption">
+-                    <h5 class="portfolio-title">Ha már nem bírod cérnával</h5>
+-                  </div></a>
+-              </div>
+-          </div>
+-        </div>
+-      </section>
+-
+-      <section class="section parallax-container context-dark" id="erdoelvalaszto" data-parallax-img="images2//kina.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-  
+-      <section class="section section-md bg-gray-dark" id="erettsegi" data-type="anchor">
+-        <div class="container text-center">
+-          <h2>Érettségi</h2><br>
+-          <div>
+-            <p class="body" style="margin: 50px;" align="justify">Ezen az oldalon a kétszintű biológia érettségivel kapcsolatos információk olvashatók.</p>
+-          </div>
+-          <div class="body text-left"
+-            <ul>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="/downloads/biologia_vl_2017.pdf" download>A vizsga leírása</a></li><br>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok">Korábbi érettségi időszakok feladatsorai biológiából</a></li><br>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="http://njt.hu/cgi_bin/njt_doc.cgi?docid=30517.327855">Általában az érettségi vizsgáról: 100/1997. (VI. 13.) Korm. rendelet az érettségi vizsga vizsgaszabályzatának kiadásáról</a></li><br>
+-            </ul>
+-          </div>
+-          <br><br>
+-          <div class="text-center">
+-            <h5>Követelményrendszer 2017</h5>
+-            <br>
+-            <p><font color="#3366CC" size="3"><b><a title="" name="" target="" classname="" class="" href="/downloads/biologia_vk_2017.pdf" download>Részletes vizsgakövetelmény biológiából 2017-től</a></b></font><br>
+-          </div>
+-          <br>
+-          <div class="body text-left"
+-            <ul>
+-            </ul>
+-            <br>
+-            <font color="#0066CC">
+-              <li><a class="" classname="" target="_blank" name="" title="" href="http://ofi.hu/biologia-mintafeladatsorok">Mintafeladatsorok</a></li><br>
+-              <li><a class="" classname="" target="_blank" name="" title=""href="/downloads/Emelt-szobeli-mintatetelek.pdf" download>Emelt szóbeli mintatételek</a></li><br>
+-              <li><a class="" classname="" target="_blank" name="" title=""href="/downloads/Emeltszobeli.pdf" download>Szóbeli A tételek</a></li><br>
+-            </font>
+-          </div>
+-        </div>
+-      </section>
+-      
+-      <section class="section parallax-container context-dark" id="cetelvalaszto" data-parallax-img="images2//cet.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-      
+-      <section class="section section-md bg-gray-dark" id="emeltszintujegyzetek" data-type="anchor">
+-        <div class="container text-center">
+-          <br><br><br>
+-          <h2>Emelt szintű jegyzetek</h2>
+-          <br>
+-  <a href="#jegyzetekshowhide" data-toggle="collapse">Jegyzetek megjelenítése / eltüntetése</a>
+-  <div id="jegyzetekshowhide" class="collapse">
+-  <br>
+-          <div class="body text-left style='margin-left: 40px;'">
+-            <ul class="list-marked-3">
+-              <li><b><font color="#FFFFFF"><u>1. RENDSZERTAN</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><b><font color="#FFFFFF">1.1 Bevezetés, vírusok, prokarióták</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Rendszerezesbevezetes-fakt.pdf">A rendszertan alapjai</a></li>
+-<!--                      <li><a onclick="window.open('http://bioszfera.com/downloads/Rendszerezesbevezetes-fakt.pdf', ''); return false" href="javascript:void(0);">A rendszertan alapjai</a></li> -->
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Virusok-fakt.pdf">Vírusok</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Prokariota-fakt.pdf">Prokarióták</a></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">1.2 Gombák, zuzmók<br></font></b>
+-                    <ul class="list-marked-3">
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Gombak-fakt.pdf">Gombák</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Zuzmok-fakt.pdf">Zuzmók</a><br></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">1.3 Növénytan</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Moszatok-fakt.pdf">Algák</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Mohak-fakt.pdf">Mohák</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Harasztok-fakt.pdf">Harasztok</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Nyitvatermok-fakt.pdf">Nyitvatermők</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Zarvatermok-fakt.pdf">Zárvatermők</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Novenyiszovetek-fakt.pdf">Növényi szövetek</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Novenyiszervek-fakt.pdf">Növények szervei</a></li>
+-                      <li><a target="_blank" href="http://bioszfera.com/downloads/Novenyelettan-fakt.pdf">Növényi életműködések</a></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">1.4 Állattan</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Allatiegysejtuek-fakt.pdf">Egysejtűek</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Szivacsok-fakt.pdf">Szivacsok</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Laposfergek-fakt.pdf">Laposférgek</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Gyurusfergek-fakt.pdf">Gyűrűsférgek</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Rovarok-fakt.pdf">Rovarok</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Puhatestuek-fakt.pdf">Puhatestűek</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Halak-fakt.pdf">Halak</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Tetrapoda-fakt.pdf">Kétéltűek</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Hullok-fakt.pdf">Hüllők</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Madarak-fakt.pdf">Madarak</a></font></li>
+-                      <li><font color="#003366"><a target="_blank" href="http://bioszfera.com/downloads/Emlosok-fakt.pdf">Emlősök</a></font></li>
+-                    </ul>
+-                  </li>
+-                </ul>
+-              </li>
+-            
+-              <li><b><font color="#FFFFFF"><u>2. ETOLÓGIA</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#FFFFFF"><a target="_blank" href="http://bioszfera.com/downloads/Etologia-fakt.pdf">Etológia</a></font></li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>3. ÖKOLÓGIA</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-bevezetes-fakt.pdf">Bevezetés</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-talaj-fakt.pdf">Talaj</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-levego-fakt.pdf">Levegő</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-viz-fakt.pdf">Víz</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-napsugarzas-fakt.pdf">Napsugárzás</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-populaciok-fakt.pdf">Populációk</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-tarsulas-fakt.pdf">Társulások</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-okoszisztema-fakt.pdf">Ökoszisztéma</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-hazaifas-fakt.pdf">Hazai fás társulások</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-fatlan-fakt.pdf">Hazai fátlan társulások</a><br></font>
+-                    <ul class="list-marked-3">
+-                      <li><a target="_blank" href="http://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_%C3%A1llatvil%C3%A1ga">Magyarország állatvilága</a></li>
+-                      <li><a target="_blank" href="http://www.terra.hu/haznov/html/hunidx.html">Magyarország növényvilága</a><br></li>
+-                    </ul>
+-                  </li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Oko-bioszferavedelme.pdf">Bioszféra védelme</a></font></li>
+-                  <li><font color="#006633"><a target="_blank" href="http://bioszfera.com/downloads/Okologiaessze.pdf">Esszé feladatok</a><br></font></li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>4. SEJTBIOLÓGIA</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><b><font color="#FFFFFF">4.1 A sejtek kémiai felépítése</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Biogenelemek-viz-lipidek-fakt.pdf">Biogén elemek, víz, lipidek</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Szenhidratok-fakt.pdf">Szénhidrátok</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Feherjek-fakt.pdf">Fehérjék</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Nukleinsavak-fakt.pdf">Nukleinsavak</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Gyakorlatok1.pdf">Gyakorlatok</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Kromatografia.pdf">Kromatográfia</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">4.2 A sejtek anyagcsere-folyamatai</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Asszimilacio-fakt.pdf">Asszimiláció</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Disszimilacio-fakt.pdf">Disszimiláció</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Molekularisgenetika-fakt.pdf">Molekuláris genetika</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">4.3 A sejtek felépítése, működése</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Biomembranok-fakt.pdf">A biológiai membránok, transzportfolyamatok</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Endomembranok-fakt.pdf">Endomembránrendszer</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Mitokondrium-plasztisz-fakt.pdf">Mitokondrium, színtest</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Sejtmag-fakt.pdf">Sejtmag, sejtciklus</a></font></li>
+-                      <li><font color="#336699"><a target="_blank" href="http://bioszfera.com/downloads/Sejtvaz.pdf">Sejtváz</a><br></font></li>
+-                    </ul>
+-                  </li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>5. AZ ÁLLATI ÉS EMBERI SZÖVETEK</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#FF6600"><a target="_blank" href="http://bioszfera.com/downloads/Hamszovet-fakt.pdf">Hámszövetek</a></font></li>
+-                  <li><font color="#FF6600"><a target="_blank" href="http://bioszfera.com/downloads/Kotoszovetek-fakt.pdf">Kötőszövetek</a></font></li>
+-                  <li><font color="#FF6600"><a target="_blank" href="http://bioszfera.com/downloads/Tamasztoszovetek-fakt.pdf">Támasztószövetek</a></font></li>
+-                  <li><font color="#FF6600"><a target="_blank" href="http://bioszfera.com/downloads/Izomszovetek-fakt.pdf">Izomszövetek</a></font></li>
+-                  <li><font color="#FF6600"><a target="_blank" href="http://bioszfera.com/downloads/Idegszovetfakt.pdf">Idegszövet</a></font></li>
+-                  <li><font color="#FF6600"><a target="_blank" href="https://drive.google.com/folderview?id=0B15KJwYa2uMFS0RKYk03c2FXTWM&amp;usp=sharing">Szövettani metszetek</a></font></li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>6. AZ EMBER ÖNFENNTARTÓ MŰKÖDÉSEI</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><b><font color="#FFFFFF">6.1 Az ember emésztőszervrendszere</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#006666"><a target="_blank" href="http://bioszfera.com/downloads/Emesztes-fakt.pdf">Az ember emésztőszervrendszere</a></font></li>
+-                      <li><font color="#006666"><a target="_blank" href="http://bioszfera.com/downloads/Emesztorendszeregeszsegtana.pdf">A táplálkozás egészségtana</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">6.2 Az ember légzőszervrendszere</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#3333FF"><a target="_blank" href="http://bioszfera.com/downloads/Legzes-fakt.pdf">Az ember légzőszervrendszere</a></font></li>
+-                      <li><font color="#3333FF"><a target="_blank" href="http://bioszfera.com/downloads/Legzorendszeregeszsegtana.pdf">és egészségtana<br></a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">6.3 Az emberi keringés szervrendszere</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#CC0000"><a target="_blank" href="http://bioszfera.com/downloads/Ver-fakt.pdf">A vér</a></font></li>
+-                      <li><font color="#CC0000"><a target="_blank" href="http://bioszfera.com/downloads/Sziv-fakt.pdf">A szív és az erek<br></a></font></li>
+-                      <li><font color="#CC0000"><a target="_blank" href="http://bioszfera.com/downloads/Nyirokrendszer-fakt.pdf">A nyirokrendszer</a></font></li>
+-                      <li><font color="#CC0000"><a target="_blank" href="http://bioszfera.com/downloads/Keringesegeszsegtan.pdf">A keringési rendszer egészségtana</a><br></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">6.4 Az ember kiválasztó-szervrendszere</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#FFCC00"><a target="_blank" href="http://bioszfera.com/downloads/Kivalasztas-fakt.pdf">Az ember kiválasztó-szervrendszere és egészségtana</a></font><br></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">6.5 A mozgás szervrendszere</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#009999"><a target="_blank" href="http://bioszfera.com/downloads/Mozgas.pdf">A mozgás szervrendszere és egészsé©gtana</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">6.6 Az emberi bőr</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#FF9966"><a target="_blank" href="http://bioszfera.com/downloads/Bor.pdf">Az emberi bőr és egészségtana</a></font></li>
+-                    </ul>
+-                  </li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>7. AZ EMBER ÖNSZABÁLYOZÓ MŰKÖDÉSEI</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Hormonalis-fakt.pdf">Hormonális szabályozás</a></font>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Hormon tablazat.pdf">Összefoglaló táblázat</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">Idegi szabályozás</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Idegszovet-fakt.pdf">Az idegszövet-bővített</a></font></li>
+-					  <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Idegszovet-fakt-rovid.pdf">Az idegszövet-emelt</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Gerincvelo-fakt.pdf">A gerincvelő felépítése és működése</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Agytorzs-fakt.pdf">Az agytörzs felépítése és működése-bővített</a></font></li>
+-					  <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Agytorzs-fakt-emelt.pdf">Az agytörzs felépítése és működése-emelt</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Koztiagy-nagyagy-fakt.pdf">A köztiagy és a nagyagy felépítése és működése-bővített</a></font></li>
+-					  <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Koztiagy-nagyagy-emelt.pdf">A köztiagy és a nagyagy felépítése és működése-emelt</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Idegrendszermukodese-fakt.pdf">Az idegrendszer vegetatív, érző és mozgató működése</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Idegrendszermukodese-emelt.pdf">Az idegrendszer vegetatív, érző és mozgató működése-emelt</a></font></li>
+-					  <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Idegrendszeregeszsegtana.pdf">Az idegrendszer egészségtana</a><br></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">Az érzékszervek felépítése és működése</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Szem-fakt.pdf">A látás</a> <br></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Ful-fakt.pdf">A hallás</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Szaglas-izerzes-bor-fakt.pdf">A szaglás és ízérzékelés, bőr, mint érzékszerv</a></font></li>
+-                    </ul>
+-                  </li>
+-                  <li><b><font color="#FFFFFF">Genetikai szabályozás</font></b>
+-                    <ul class="list-marked-3">
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Genetika1-fakt.pdf">A genetika alapjai</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Genetika2-fakt.pdf">Genetika II</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Genetikafeladatok2.pdf">Feladatok</a></font></li>
+-                      <li><font color="#333366"><a target="_blank" href="http://bioszfera.com/downloads/Genetikafeladatok.pdf">Feladatok-megoldással</a><br></font></li>
+-                    </ul>
+-                  </li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>8. ÖNREPRODUKCIÓ</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#993333"><a target="_blank" href="http://bioszfera.com/downloads/Szaporodas-fakt.pdf">Az ember szaporító szervrendszere</a></font></li>
+-                  <li><font color="#993333"><a target="_blank" href="http://bioszfera.com/downloads/szexualisuton.pdf">Szexuális úton terjedő betegségek</a></font></li>
+-                  <li><font color="#993333"><a target="_blank" href="http://bioszfera.com/downloads/Egyedfejlodes-fakt.pdf">Az ember egyedfejlődése</a></font></li>
+-                </ul>
+-              </li>
+-
+-              <li><b><font color="#FFFFFF"><u>9. AZ EVOLÚCIÓ</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Populaciogenetika-fakt.pdf">Populációgenetika, evolúciógenetika</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Populaciogenetikafeladatok.pdf">Feladatok</a><br></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Evolucio-fakt.pdf">Fizikai, kémiai, biológiai evolúció</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Emberevolucio-fakt.pdf">Az ember evolúciója</a></font></li>
+-                </ul>
+-              </li>
+-            </ul>              
+-          </div>
+-  </div>
+-        </div>
+-      </section>
+-
+-      <section class="section parallax-container context-dark" id="DNS2valaszto" data-parallax-img="images2//DNS2valaszto.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-
+-      <section class="section section-md bg-gray-dark" id="feladatok" data-type="anchor">
+-        <div class="container text-center">
+-          <br><br><br>
+-          <h2>Feladatok</h2>
+-          <br>
+-  <a href="#feladatokshowhide" data-toggle="collapse">Feladatok megjelenítése / eltüntetése</a>
+-  <div id="feladatokshowhide" class="collapse">
+-    <br>
+-          <div class="body text-left style='margin-left: 40px;'">
+-            <ul class="list-marked-3">
+-              <li><b><font color="#FFFFFF"><u>1. A BIOLÓGIA ÉRETTSÉGI GYAKORLATI FELADATAI</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#3366CC"><a target="_blank" href="http://bioszfera.com/downloads/gyakorlatok.pdf">Gyakorlatok</a></font></li>
+-                </ul>
+-              </li>
+-              <li><b><font color="#FFFFFF"><u>2. SZÁMÍTÁSI FELADATOK</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Szamolas.pdf">Számolás</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Szamolas-megoldas.pdf">Számolás</a></font></li>
+-                </ul>
+-              </li>
+-              <li><b><font color="#FFFFFF"><u>3. GYAKORLÓ FELADATOK</u></font></b>
+-                <ul class="list-marked-3">
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Novenytan.pdf">Növénytan</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Novenytan-OKTV-I.pdf">Növénytan II</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Allatok.pdf">Állattan</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Sejtbiologia.pdf">Sejtbiológia</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Sejtbiologia-OKTV-I.pdf">Sejtbiológia II</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Szovetek-emesztes-legzes.pdf">Szövettan, emésztés, légzés</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Szovetek-emesztes-legzes-OKTV-I.pdf">Szövetek-emésztés-légzés-II</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Keringes-kivalasztas-mozgas.pdf">Keringés-kiválasztás-mozgás</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Keringes-kivalasztas-mozgas-OKTV-I.pdf">Keringés-kiválasztás-mozgás II</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Szabalyozas.pdf">Szabályozás, szaporodás</a></font></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Genetikafeladatok-I.pdf">Genetika I</a></font><br></li>
+-                  <li><font color="#003333"><a target="_blank" href="http://bioszfera.com/downloads/Emelt-szobeli-mintatetelek.pdf">Emelt szóbeli mintatételek</a></font><br></li>
+-                </ul>
+-              </li>
+-            </ul>
+-          </div>
+-  </div>
+-        </div>
+-      </section>
+-
+-      <section class="section parallax-container context-dark" id="zsirafelvalaszto" data-parallax-img="images2//zsiraf.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-
+-      <section class="section section-md bg-gray-dark" id="alaporasjegyzetek" data-type="anchor">
+-        <div class="container text-center">
+-          <br><br><br>
+-          <h2>NAT 2020</h2>
+-          <br>
+-  <a href="#alapjegyzetekshowhide" data-toggle="collapse">Jegyzetek megjelenítése / eltüntetése</a>
+-  <div id="alapjegyzetekshowhide" class="collaps">
+-            <div class="body text-left style='margin-left: 40px;'">
+-              <ul class="list-marked-3">
+-                <li><b><font color="#FFFFFF"><u>NAT 2020</u></font></b>
+-                  <ul class="list-marked-3">
+-                    <li><b><font color="#FFFFFF">1. A biológiai kutatás céljai és módszerei</font></b>
+-                      <ul class="list-marked-3">
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/Abiologiatudomanya.pdf">A biológia tudománya</a></li>
+-                  </ul>
+-                    </li>
+-				  <ul class="list-marked-3">
+-					<li><b><font color="#FFFFFF">2. Az élet eredete és szerveződése</font></b>
+-					  <ul class="list-marked-3">
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/Azelovilágegysege.pdf">Az élővilág egysége, az élőlények felépítésének, működésének, alapelvei</a></li>
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/Asejtesgenomszervezodese.pdf">A sejt és a genom szerveződése és működése</a></li>
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/Sejtekesszovetek.pdf">Sejtek és szövetek</a></li>
+-					    <li><a target="_blank" href="http://bioszfera.com/downloads/Eletesenergia.pdf">Élet és energia</a></li>
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/Azeleteredete.pdf">Az élet eredete és feltételei</a></li>
+-						</ul>
+-                    </li>
+-				  <ul class="list-marked-3">
+-					<li><b><font color="#FFFFFF">3. Öröklődés és evolúció, a biotechnológia módszerei és alkalmazása</font></b>
+-					  <ul class="list-marked-3">
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/Avaltozekonysagmolekularisalapjai.pdf">A változékonyság molekuláris alapjai</a></li>
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/Egyedszintuoroklodes.pdf">Egyedszintű öröklődés</a></li>
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/Abiologiaievolucio.pdf">A biológiai evolúció </a></li>
+-				  </ul>
+-                    </li>
+-				  <ul class="list-marked-3">
+-					<li><b><font color="#FFFFFF">4. Az ember szervezete és egészsége</font></b>
+-					  <ul class="list-marked-3">
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/Testkep-testalkat-mozgaskepesseg.pdf">Testkép, testalkat, mozgásképesség</a></li>
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/.pdf">Anyagforgalom</a></li>
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/.pdf">Érzékelés, szabályozás</a></li>
+-					    <li><a target="_blank" href="http://bioszfera.com/downloads/.pdf">Az emberi nemek és a szaporodás biológiai alapjai</a></li>
+-                        <li><a target="_blank" href="http://bioszfera.com/downloads/.pdf">A viselkedés biológiai alapjai, a lelki egyensúly és a testi állapot összefüggése</a></li>
+-						<li><a target="_blank" href="http://bioszfera.com/downloads/.pdf">Az egészségügyi rendszer, elsősegélynyújtás</a></li>
+-				  </ul>
+-                    </li>
+-				
+-				
+-                  </ul>
+-                </li>
+-              </ul>
+-            </div>
+-</div>
+-        </div>
+-      </section>
+-
+-      <section class="section section-md context-dark bg-image text-center" id="services" data-type="anchor" style="background-image: url(images2//Esoerdo.jpg)">
+-        <div class="container">
+-          <p class="subtitle"><font color="white">Beszámolók</font></p>
+-          <h2><font color="white">Mit gondolnak a diákok</font></h2>
+-          <div class="owl-carousel carousel-testimonials" data-items="1" data-md-items="2" data-dots="true" data-nav="true" data-stage-padding="15" data-loop="true"  data-margin="60" data-mouse-drag="true">
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">  
+-              </div>
+-              <div class="box-testimonials-body">
+-                <br>
+-                <p> Kedves Vizkievicz Tanár Úr! Mi tiszteljük Önt, mert:<br><br>
+-				<li>fáradhatatlanul dolgozik,</li> 
+-				<li>szakmailag nagyon precíz, odafigyel az osztály igényeire, korrekt és lelkes,</li>
+-				<li>rendkívül emberséges, megértő, korrekt kedves és következetes,</li>
+-				<li>naprakész jegyzetei, magyarázatai, következetessége mindenkivel megszereteti a biológiát,</li>
+-				<li>mindenben igyekszik támogatni a diákjait, mindent megtesz azért, hogy a diákok felkészülhessenek, rendkívül nyitott.</li>
+-				<li>Mindig összeszedett. Mindenkivel teljes mértékben korrekt, jóindulatú. Szakmailag a legjobb. Az a tanár, akiért megérte a VMG-be jönni. Mind emberileg, mind szakmailag példakép és minta a számomra. A segítőkészsége és a mindenkori kedvessége, a pozitív hozzáállása az osztályhoz és az emberekhez és a tantárgyhoz, erőt ad nekem, és nem csak tiszteletet, hanem szeretetet kelt az emberekben.</li> </p> 
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Harajka András</cite><span>Orvostanhallgató, összegyűjtötte a 2017-ben végzett faktos csoport diákjaitól</span>
+-                </p>
+-              </div>
+-            </div>
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">   
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Tanár Úr kiemelkedő szakértelemmel tartja az óráit mind alap, mind emelt szinten, a fakton átadott ismereteknek hála versenyelőnnyel indultam az egyetemen. Az órák középpontjában a tananyag lényegi összefüggéseinek megértése volt, emellett számos olyan plusz ismeretet kaptunk, ami meghaladta az emelt érettségi követelményeit, viszont hozzájárult a tantárgy iránti érdeklődésünk és szeretetünk növekedéséhez. Mindezt kiváló jegyzetek segítették. Az órák mindig barátságos hangulatban teltek, Tanár úr partnerként kezelt minket, így mindannyian motiváltan vettünk rajtuk részt. Gondolkodásra és kérdezésre ösztönzött minket, bonyolultabb kérdéseinknek lelkiismeretesen utánanézett. A fakultáció rengeteg pozitív hatást gyakorolt a gondolkodásomra és a tanulási folyamataimra, ezekért nagyon hálás vagyok!</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Henkrich Miksa</cite><span>Volt Majoros diák</span>
+-                </p>
+-              </div>
+-            </div>
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">    
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>"Az iskolának az a feladata, hogy a kérdezést természetes és leküzdhetetlen szokásunkká tegye."(Örkény István)
+-                   Számomra Vizkievicz Tanár Úr volt az, aki erre igazán rászoktatott, és ezért azóta is nagyon hálás vagyok neki. Sokat bátorított minket, hogy kérdezzünk óra közben, így mindenkinek sokkal személyesebbé és érdekesebbé váltak az órái. Ami külön figyelmesség volt tőle, hogy amikor néha nem tudott válaszolni a részletekben kutató kérdéseinkre akkor mindig utánajárt a következő órára. Válaszaiban és az óra menetében is mindig arra törekedett, hogy mindenki megértse az adott kérdést. Ha kellett több oldalról is körül jártuk a bonyolultabb témákat, de mindig figyelt arra, hogy addig ne menjünk tovább, amíg valami nem világos. Orvosi tanulmányaim során mindig is azt érzem, hogy hatalmas előnyből indultam a többiekhez képest, amiatt a rendszerezett és megértés központú tudás miatt, amit ő átadott nekünk.
+-                   Hatalmas motiváció volt, hogy őt is ugyanúgy érdekli a téma mint minket. Ami miatt még külön hálás vagyok neki az az embersége és lelkiismeretessége, hiszem, hogy a személyiségünk is sokat formálódott a kezei között.</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Bozzai Dániel</cite><span>Orvostanhallgató, Semmelweis Egyetem, OKTV döntős</span>
+-                </p>
+-              </div>
+-            </div>
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">              
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Vizkievicz tanár úr óráiról csak pozitívat tudok mondani. Amellett, hogy az órák nagyon jó hangulatban teltek, nagyon hatékonyak is voltak. Valahogy olyan érthetővé és érdekessé tudta tenni a legunalmasabb részeit is a tananyagnak, hogy nem is volt annyira nehéz megtanulni. Nem csak a száraz anyagot adta le, hanem mindig valami pluszt is hozzátett, és ettől voltak olyan színesek az órák. Minden kérdésünkre kaptunk választ, tulajdonképpen sose volt buta kérdés, olyan természetességgel válaszolt a legegyszerűbb kérdésre is. Ha kellett többször elmagyarázta a nehezebb részeket, bármikor kérhettük. A jegyzetek, amiket készít, rengeteget jelentenek a felkészülésben. Nagy segítség, hogy nem kell átnyálazni egy könyvet, ráadásul a fontos dolgok mellett még kiegészítés is van szürke betűvel, ráadásul mindig frissül, nem az öt éve kiadott tankönyvekből tanulunk. Szóbelire való felkészítés során mindig tudja, mit kell mondani ahhoz, hogy a lehető legjobban szerepeljünk, óriási tapasztalattal rendelkezik a tanár úr e téren is. Nekem rengeteget segített az, hogy sokat gyakoroltuk ezeket a szituációkat, elképesztő türelemmel kezelve mindezt. A későbbi tanulmányaim alatt vettem észre, hogy olyan biztos alapokat kaptam, amire bátran építkezhettem a későbbiekben, és ha néha elő is kellett vennem a gimis jegyzeteket, ezen az oldalon mindig megtaláltam őket. Gimnazista éveim legjobb és leghatékonyabb órái voltak a biológia órák, ehhez természetesen a tanár úr személyisége és tanítási módszerei is nagyban hozzájárultak.</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Novothny Zita</cite><span>Orvostanhallgató, Semmelweis Egyetem</span>
+-                </p>
+-              </div>
+-            </div>
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">                     
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Vizkievicz Tanár Úrral nem feladat volt a biosz, hanem hobby. Az a tárgy volt ahol csak be kell ülni az órára és hallgatni a mesét. Bízhattam benne, hogy a kérdéseim után nem marad homályos folt az anyagban. Nem csak az egyetemre való felkészülésben segített, de a további egyetemi tanulmányaimban is. Két egyetemi év után is visszakutatok néha pár elfelejtett alapot az érthető, tartalmas, de jól összegzett jegyzeteiből. Nélküle talán nem tartanék ott ahol most tartok. Olyan stabil alapokat kaptam, ami életem végéig segíteni fog. Köszönöm Tanár úr!</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Dohovits Ági</cite><span>Biológushallgató, Universität Wien</span>
+-                </p>
+-              </div>
+-            </div>
+-            <div class="box-testimonials">
+-              <div class="box-testimonials-image">                      
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Vizkievicz tanár úr négy éven át tanított nekem biológiát emelt szinten. Ezen túl azzal is hozzájárult biológiai irányú érdeklődésem kibontakoztatásához, hogy gimnáziumi éveim alatt számos orvos előadót hívott meg az iskolába. A szigorú, de korrekt számonkérései nagyszerűen felkészítettek az érettségire, a jegyzetei és a ppt előadásai pedig egyedülálló módon adtak ízelőt az egyetemen alkalmazott oktatási módszerekből, így megkönnyítve számomra az egyetemi tanulást. A tanórákon megszerzett tudás ráadásul biztos alapokat nyújtott számomra többek között az anatómia, a genetika, a sejtbiológia, az élettan, a biokémia és a biotechnológia tárgyakhoz. Tanár úr kiváló szakmaiságán túl emberi értékeivel is példát mutatott nekünk. Nyugodt légkörű, jó hangulatú órái maximálisan elősegítik a tanulást, ezért máig hálás vagyok neki az érettségire történő felkészüléshez nyújtott jó tanácsaiért és az elmúlt egyetemi éveim alatt – kiváló felkészítésének köszönhetően – megspórolt tanulási időért. Mindig is érdekelt ugyan a biológia, de Tanár úr volt az, akinek a hatására annyira megszerettem, hogy végül doktori kutatómunkámat is ezen a tudományterületen fogom végezni. Mindenkinek jó szívvel ajánlom.
+-				Őszintén hálás vagyok és szívből kívánom a legjobbakat!</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Kovács Orsolya</cite><span>Gyógyszerész, Semmelweis Egyetem, Genetikai, Sejt- és Immunbiológiai Intézetnél PhD hallgatója</span>
+-                </p>
+-              </div>
+-            </div>
+-			<div class="box-testimonials">
+-              <div class="box-testimonials-image">                       
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Ha az ember egy barátságos, modern, profi és végtelenül hatékony környezetre vágyik, hogy belevesse magát a bioszba, szívből ajánlom a Bioszféra oldalt, és a Tanár úr óráit, melyek maximálisan produktív, nyugodt, ámde baráti hangulatban teltek. A jegyzetek befogadhatóvá, emberközelivé teszik a tananyagot, és bővelkednek érdekességekben, melyek megkönnyítik még az kemény diónak számító témákkal való ismerkedést. A szürke betűs részek pedig tökéletesen helytálltak, mikor az OKTV-re készültem. A témákra bontás, a képek, a rendszerezés és szerkesztése az anyagnak lehetővé teszi, hogy az órán régen átvett anyagokat, vagy akár teljesen ismeretlen témákat vágjon be az ember komolyabb megerőltetés nélkül. Az érettségi előtti para idején mindenki hálás lehet, amikor nem kell egy vastag könyvet átlapoznia, itt derül ki főleg hatékonysága a modern, emberközeli tálalása a biológiának. 
+-                Visszanézve, az idő távlatából is lenyűgöz, hogy sikerült ilyen könnyen és élvezhetően ennyit tanulni e két év alatt. Köszönöm szépen!</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Kocsubej Péter</cite><span>Semmelweis Egyetem hallgatója, OKTV döntős</span>
+-                </p>
+-              </div>
+-            </div>
+-			<div class="box-testimonials">
+-              <div class="box-testimonials-image">                      
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>A Tanár Úr azzal, hogy jegyzeteket csinált nekünk, és így az órán annyi volt a feladatunk, hogy figyeljünk, komolyan vett minket, és felnőttként kezelt. Ez megteremtett egy nagyon jó hangulatot az óráin, és szerettünk bejárni. Én megtanultam "tanulni", amit annyiszor tudtam hasznosítani az egyetemen, ebben nagyon segített a biosz óra. Élvezhető, modern, naprakész és vicces volt! Annyira nagyon hálás vagyok ezért a szilárd alapért, amit itt kaptam.</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Szigetvári Zsófi</cite><span>Orvostanhallgató, Semmelweis Egyetem</span>
+-                </p>
+-              </div>
+-            </div>
+-			<div class="box-testimonials">
+-              <div class="box-testimonials-image">                      
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Jó emlékekkel gondolok vissza a biosz faktos órákra! Nekem a faktos órákban az tetszett a legjobban, hogy az egész tananyag úgy volt megszerkesztve, hogy szisztematikusan felkészítsen az érettségire. A jegyzetek könnyen követhetőek voltak, egyértelműen volt a tananyag felosztva témák szerint és a lényeg meg a mellek információ másképpen volt kiemelve a jegyzetekben ezzel egyértelműsítve mi az, ami elengedhetetlen információ és mi az, ami csak érdekességképpen van benne. A jegyzetekről meg annyit, hogy mind két tesóm és meg sok baratom használta őket az emelt színtű vizsga felkészülésére, és nagyon szerettek és egyértelműnek találták őket.</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Kiss Szonja</cite><span>University of York</span>
+-                </p>
+-              </div>
+-            </div>
+-			<div class="box-testimonials">
+-              <div class="box-testimonials-image">                     
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>A Tanár Úr órái tulajdonképpen már a kezdetektől nagyon tetszettek nekem, mások voltak, mint a megszokott „tanórajelleg”. Izgalmas volt nézni a saját készítésű ppt-ket, majd otthon szintén a Tanár Úr által készített jegyzetekből tanulni. A Tanár Úr tanításának, érettségire való felkészítésének köszönhető az, hogy az írásbeli, és a szóbeli előtti utolsó pár napban elég volt csak egyszer átolvasni mindent, és miközben ismételtem tudtam, hogy tulajdonképpen mindenre emlékszem az elmúlt két évből. Az, hogy a 12-et úgy meghúztuk, hogy szinte minden héten írtunk, nem csak az érettségire készített fel minket tökéletesen, hanem megtanított minket rendesen, nagy mennyiségben tanulni, ami a jövőre nézve is rendkívül hasznos lehet majd. Sokszor belegondoltam, hogy mennyire jó dolgunk volt a jegyzetekkel is. Számomra sokkal átláthatóbbak, mint bármelyik bioszkönyv, amibe bármikor is belepillantottam, illetve elég jó megoldásnak találtam, hogy bárhol voltam elérhető volt a bioszféráról. Összességében azt találom a legcsodálatosabbnak, hogy hiába kellett a legtöbbet biológiát tanulnom az elmúlt években, mégis nagyon pozitívan gondolok vissza az órák minden pillanatára, és ez a légkörnek köszönhető. Amikor fáradtak voltunk, vagy épp nem annyira voltunk lelkesek a 8. órában, mindig jött egy jófajta kis poén a Tanár Úrtól, vagy egy pár biztató szó, ami engem mindig nagyon feldobott. Sosem volt szükség szigorkodásra, padracsapkodásra (mint más órákon, néha-néha), mert a Tanár Úr máshogy nyerte el rögtön a diákok tiszteletét: higgadtságával, korrektségével, és mértéktelen tudásával.</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Fontanini Fedra</cite><span>Gyógytornászhallgató Semmelweis Egyetem</span>
+-                </p>
+-              </div>
+-            </div>
+-			<div class="box-testimonials">
+-              <div class="box-testimonials-image">                      
+-              </div>
+-              <div class="box-testimonials-body">
+-			  <br>
+-                <p>Az órákon elvárt volt a figyelem, de a Tanár Úr mindig igyekezett a diákokhoz igazítani az óra menetét, figyelte, hogy tudjuk-e követni. Teljes mértékben át tudta adni a tantárgy iránti szeretetét, lelkiismeretesen készültünk, és örömmel mentünk be minden órára.
+-				Rendszeresen vegyült bele a humor az órák hangulatába, de mindezt úgy, hogy közben a tárgynál maradtunk, és hatékonyan tudtunk dolgozni.
+-				A rendszeres számonkérés is hozzátartozott az órákhoz, de mindig pontosan tudtuk előre, hogy milyen anyagrészekből számíthatunk kérdésekre, a Tanár Úr rendkívül kedvesen feleltetett, a dolgozatidőpontok kitűzésénél figyelembe vette az adott időszakban a többi tantárgyból való számonkérést is, és javítási lehetőséget is biztosított. Minden dolgozatot utólag részletesen átbeszéltünk, így magukból a tesztekből is sokat tanultunk.
+-				Az érettségire való felkészítés rendkívül tudatosan folyt. A hatalmas tudáson kívül, amit a Tanár Úr átadott nekünk a két év során, már „tapasztalattal” is rendekeztünk, mivel rengeteg érettségi feladatot oldottunk az órákon, amiket alaposan át is beszéltünk. Így nagyon jól elsajátíthatta mindenki azt a gondolatmenetet, amit ilyen feladatok megoldásánál követni érdemes.
+-				A jegyzetek is a követelményrendszer szerint vannak összeállítva. Minden gyakran kérdezett anyagrészre a Tanár Úr külön felhívta a figyelmünket, bármikor kérdezhettünk, ha valami nem volt világos, a sokaknak bonyolult részeket akár többször is átvettük, rendszeres ismétlésekre került sor az érettségit megelőző évben, egyszóval a felkészítés rendkívül átfogó, precíz és alapos volt!”</p>
+-              </div>
+-              <div class="box-testimonials-footer">
+-                <p>
+-                  <cite>Kollár Petra</cite><span>Orvostanhallgató, Semmelweis Egyetem</span>
+-                </p>
+-              </div>
+-            </div>
+-          </div>
+-        </div>
+-      </section>
+-      
+-	  <section class="section section-md bg-gray-100 text-center" id="mediafigyelo" data-type="anchor">
+-        <div class="container">
+-          <h2>Médiafigyelő</h2>
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://hvg.hu/tudomany/20170822_Ket_evig_teljes_sotetseg_volt_a_Foldon_a_dinok_kihalasa_utan" class="" classname="" target="_blank" name="" title="">Két évig teljes sötétség volt a Földön a dinók kihalása után</a></font></h2>
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2013/07/18/sikerult_kikapcsolni_a_down-kort_okozo_kromoszomat/">Sikerült kikapcsolni a Down-kórt okozó kromoszómát</a></font></h2>
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://www.ng.hu/Tudomany/2010/02/Gondolatvezerelt_protezis">Gondolatvezérelt protézis</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://hvg.hu/tudomany/20110217_bionikus_kar_video">A bionikus kar a világ legnagyobb tudományos tanácskozásának sztárja &#8211; videók</a></font></h2>
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/12/04/megtalaltak_a_mertektelen_alkoholivas_genjet/">Megtalálták a mértéktelen alkoholivís génjét</a></font></h2>
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2012/11/28/eloszor_fotoztak_le_a_dns-t/">Először fotózták le a DNS-t</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/10/24/attores_a_hiv_elleni_antitestek_fejleszteseben/">Áttörés a HIV-antitestek fejlesztésében</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/10/16/az_idegsejtek_a_transzplantaciot_is_tulelik/">Az idegsejtek a transzplantációt is túlélik</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/10/12/pulzus_nelkul_is_van_elet/">Pulzus nélkül is van élet</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2012/10/10/remenytelenseg_klonozni_a_dinokat/">Reménytelenség klónozni a dinókat</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2012/10/08/orvosi_nobel_2012/">Őssejtkutatóké az orvosi Nobel-díj</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2012/09/29/homoszexualitas_ndash_genek_vagy_neveles/">Homoszexualitás &#8211; gének vagy nevelés?</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/09/24/elkeszult_a_rakgenom_atlasz/">Elkészült a Rákgenom Atlasz</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/2012/09/15/az_arcformat_meghatarozo_geneket_azonositottak/">Az arcformát meghatározó géneket azonosítottak</a></font></h2> 
+-            <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://index.hu/tudomany/egeszseg/2012/09/06/megalkottak_a_dns_enciklopediajat/">Megalkották a DNS enciklopédiáját</a></font></h2>
+-            <br>			
+-        </div>
+-    </section>
+-    
+-    <section class="section parallax-container context-dark" id="fishelvalaszto" data-parallax-img="images2//fish.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-    
+-	  <section class="section section-md bg-gray-dark text-center" id="animaciok" data-type="anchor">
+-        <div class="container">
+-          <br>
+-          <h2>Animációk</h2>  
+-		    <br>
+-  <a href="#animaciokshowhide" data-toggle="collapse">Animációk megjelenítése / eltüntetése</a>
+-  <div id="animaciokshowhide" class="collapse">
+-        <ul class="list-marked-3">
+-          <li><b><font color="#FFFFFF"><u>Rendszertan</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFZTdIX25BRGl4anc/view?usp=sharing">Baktériumok</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFcEhOM3ZfUXRWUUE/view?usp=sharing">Baktériumok</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFNy1yakozc0NTazQ/view?usp=sharing">Baktériumok</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFc2lpTndzY1hGWnM/view?usp=sharing">Papucsállatka</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFeEs1eUJQWFA4ZDQ/view?usp=sharing">Papucsállatka</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFbFA4V0dYT2tuTVk/view?usp=sharing">Amőba</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFSEFQd1h4b2NlMms/view?usp=sharing">Amőba</a><br></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFT1ZDTWJ6b2lPYnc/view?usp=sharing">Euglena</a></li>
+-            </ul>
+-          </li>
+-
+-          <li><b><font color="#FFFFFF"><u>Gombák</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFekJaczFKLXRYVzg/view?usp=sharing">Gombák</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFT19wSUZ5V2t6bW8/view?usp=sharing">Gyilkos galóca</a><br></li>
+-            </ul>
+-          </li>
+-            
+-          <li><b><font color="#FFFFFF"><u>Többsejtű állatok</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFVFhHMF9JWkljVzQ/view?usp=sharing">Szivacsok</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFZ19HWkxoemxiT0E/view?usp=sharing">Szivacsok</a><br></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFWkozcTZkZ2R3QzQ/view?usp=sharing">Csalánozók</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFTzIzWnU0NV9ZLTQ/view?usp=sharing">Csalánozók</a><br></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFQ0p0RjQtbzQyRlU/view?usp=sharing">Csalánozók</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFZFoxcVo2dUlGMXc/view?usp=sharing">Csalánozók</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFM2pMYUM3a0YtSVk/view?usp=sharing">Galandféreg</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFMlh3S1lPeFNkNms/view?usp=sharing">Planária</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFS0NsdktfcnRYR3c/view?usp=sharing">Fonálférgek</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="http://www.arkive.org/earthworm/lumbricus-terrestris/video-00.html">Gyűrűsférgek</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFbHRNdjU5TnoxaXc/view?usp=sharing">Gyűrűsférgek</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFNlk3QlBVNFhuaWM/view?usp=sharing">Ezerlábúak</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFTllWcldubzR6Z1U/view?usp=sharing">Ezerlábúak</a><br></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="http://www.arkive.org/amazonian-giant-centipede/scolopendra-gigantea/video-00.html">Scolopendra</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFcXhINVktQzFBT3c/view?usp=sharing">Scolopendra</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFLVdWZEtyWEV0WVU/view?usp=sharing">Scolopendra</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFNGVibllsMnBjcDQ/view?usp=sharing">Folyami rák</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFVW9VZWJmMUFvbTA/view?usp=sharing">Folyami rák</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFZVdod2FPUkJWVlU/view?usp=sharing">Tengeri pók</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFcVZEOUR1SWZjb2c/view?usp=sharing">Polip</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFSVE3RU1qYTJoMEU/view?usp=sharing">Nautilus</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFZUtvX3luVDlWNkU/view?usp=sharing">Polip</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFemhuTlQ4ZFdqVGc/view?usp=sharing">Óriáskalmár</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFNFFNSXFYaXZJSk0/view?usp=sharing">Polip</a></li>
+-              <li><a title="" name="" target="_blank" classname="" class="" href="https://drive.google.com/file/d/0B15KJwYa2uMFaHpzTGNmeEJJQWc/view?usp=sharing">Polip</a><br></li>
+-            </ul>
+-          </li>
+-          
+-          <li><b><font color="#FFFFFF"><u>Emésztés</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=zw9i55">Emésztés</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=x1darp">Fogszuvasodás</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=clz2yy">Foginygyulladás</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=11pifh">Gyökérkezelés</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=zw5y4z">Mumpsz</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=489y7t">Reflux</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=nmwsdn">Gyomorfekély</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=paz98r">Gyomorrák</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=vdnlh7">Májzsugor</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=v1i0ar">Májrák</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=kglyyk">Epehólyag</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=zdm0h0">Hepatitis B</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=zdm0h0">Hepatitis C</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=045xkx">Vakbélgyulladás</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=cfx03u">Vastagbélrák</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="http://apps4.trilobita.hu/mch3_media/static/01/player/MediaPlayer.swf?code=m3tdu1">Aranyér</a></li>
+-              
+-              
+-              <li><a title="" name="" target="_blank" class="" href="https://www.youtube.com/watch?v=lgs0mC4CjOM">Gyomortükrözés</a></li>
+-              <li><p class="MsoNormal">Féreg a vastagbélben (csak erős idegzetűeknek)<br></p></li>
+-              <li><p class="MsoNormal">Colonoscopy</p></li><li><p class="MsoNormal">Gyomorfekély</p></li>
+-            </ul>
+-          </li>
+-            
+-          <li><b><font color="#FFFFFF"><u>Makromolekulák</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" class="" href="https://www.youtube.com/watch?v=Q7dxi4ob2O4">Fehérjék</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="https://www.youtube.com/watch?v=ZGHkHMoyC5I">DNS szerkezete</a></li>
+-              <li><a title="" name="" target="_blank" class="" href="https://www.youtube.com/watch?v=7k2KAfRsZ4Q">Foszfolipidek</a></li>
+-            </ul>
+-          </li>
+-          
+-          <li><b><font color="#FFFFFF"><u>Anyagcsere</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" class="" href="https://www.youtube.com/watch?v=E-_r3omrnxw">Enzimek múködése</a></li>
+-              <li>Fotoszintézis</li>
+-              <li>Glikolízis</li>
+-              <li><a title="" name="" target="_blank" class="" href="http://www.wiley.com/legacy/college/boyer/0470003790/animations/tca/tca.htm">Citrát-ciklus</a></li>
+-              <li>Terminális oxidáció</li>
+-              <li>Mesterséges transzformáció, klónozás</li>
+-              <li>A T4 bakteriofág fertőzése</li>
+-              <li>Replikáció</li>
+-              <li>Transzkripció</li>
+-              <li>mRNS splicing</li>
+-              <li>Transzláció</li>
+-            </ul>
+-          </li>
+-          
+-          <li><b><font color="#FFFFFF"><u>Sejttan</u></font></b>
+-            <ul class="list-marked-3">
+-              <li><a title="" name="" target="_blank" class="" href="http://learn.genetics.utah.edu/content/begin/cells/scale/">A sejtek mérete</a></li>
+-              <li>Inner life of a cell</li>
+-              <li>Transzportfolyamatok</li>
+-              <li>Endocitózis, exocitózis</li>
+-              <li>DER, SRP</li>
+-              <li>Golgi-készülék</li>
+-              <li>Lizoszóma, sejten belüli emésztés</li>
+-            </ul>
+-          </li>
+-          
+-          <li><b><font color="#FFFFFF"><u>Szaporodás, egyedfejlődés</u></font></b>
+-          </li>
+-        </ul>
+-            <br>
+-            <br>
+-            <br>
+-            <br>
+-            <br>
+-            <br>
+-</div>
+-        </div>
+-      </section>
+-<!--Enzimek mĹ±kĂ¶dĂ©se 
+-href="http://www.sumanasinc.com/webcontent/animations/content/enzymes/enzymes.html">Enzimek mĹ±kĂ¶dĂ©se II.
+-href="http://highered.mcgraw-hill.com/olcweb/cgi/pluginpop.cgi?it=swf::535::535::/sites/dl/free/0072437316/120072/bio13.swf::Photosynthetic%20Electron%20Transport%20and%20ATP%20Synthesis">FotoszintĂ©zis fĂ©nyszakasza
+-href="http://www.science.smith.edu/departments/Biology/Bio231/ltrxn.html"><b>FĂ©nyszakasz II
+-FĂ©nyszakasz "http://www.youtube.com/embed/v590JJV96lc?feature=player_detailpage"
+-"http://www.youtube.com/embed/hj_WKgnL6MI?feature=player_detailpage
+-"http://www.johnkyrk.com/photosynthesisdark.html" Calvin-ciklus
+-href="http://www.science.smith.edu/departments/Biology/Bio231/calvin.html">Calvin-ciklus II
+-http://www.youtube.com/embed/E_XQR800AgM?feature=player_detailpage" allowfullscreen="" 
+-href="http://highered.mcgraw-hill.com/olc/dl/291136/glycolysis.swf">GlikolĂ­zis
+-href="http://www.johnkyrk.com/glycolysis.html">GlikolĂ­zis II
+-href="/?download=glikolizis.flv">GlikolĂ­zis III
+-href="/?download=glikolizis.flv">
+-href="http://highered.mcgraw-hill.com/sites/dl/free/0072507470/291136/krebsCycle.swf">
+-TerminĂˇlis oxidĂˇciĂł
+-"http://www.youtube.com/embed/xbJ0nbzt5Kw?feature=player_detailpage" allowfullscreen=""
+-A T4 bakteriofĂˇg fertĹ‘zĂ©se
+-http://www.youtube.com/embed/uFXuxGuT7H8?feature=player_detailpage"
+-"https://www.youtube.com/embed/WsofH466lqk?feature=player_detailpage"
+-mRNS splicing
+-"https://www.youtube.com/embed/FVuAwBGw_pQ?feature=player_detailpage"
+-TranszlĂˇciĂł
+-"https://www.youtube.com/embed/5bLEDd-PSTQ?feature=player_detailpage" 
+-"http://www.youtube.com/embed/t7pJ8Hx_Lc0?feature=player_detailpage" 
+-"http://www.youtube.com/embed/3CvOlUWnqps?feature=player_detailpage"
+-"https://drive.google.com/file/d/0B15KJwYa2uMFenpYN3VhQllyNVU/view?usp=sharing">Lac operon
+-"https://drive.google.com/file/d/0B15KJwYa2uMFeGpaNW5lUVhZUlk/view?usp=sharing">Lac operon II
+-Sejttan
+-Inner life of a cell
+-http://www.youtube.com/embed/yKW4F0Nu-UY?feature=player_detailpage"
+-SejthĂˇrtya
+-http://www.youtube.com/embed/Qqsf_UJcfBc?feature=player_detailpage
+-PasszĂ­v transzport
+-http://www.youtube.com/embed/s0p1ztrbXPY?feature=player_detailpage
+-Szteroid hormonok transzportja
+-http://www.youtube.com/embed/GW0lqf4Fqpg?feature=player_detailpage
+-Na-K-pumpa
+-http://www.youtube.com/embed/yz7EHJFDEJs?feature=player_detailpage
+-http://www.youtube.com/embed/aWItglvTiLc?feature=player_detailpage
+-http://www.youtube.com/embed/7VQU28itVVw?feature=player_detailpage
+-http://www.youtube.com/embed/spiug7vfY7c?feature=player_detailpage
+-http://www.youtube.com/embed/cEgQ1paD5bg?feature=player_detailpage
+-http://www.youtube.com/embed/rvfvRgk0MfA?feature=player_detailpage
+-http://www.youtube.com/embed/nr_aL_GV_bU?feature=player_detailpage
+-http://www.youtube.com/embed/YM2X1c4K1x0?feature=player_detailpage
+-http://www.youtube.com/embed/2KQbVr9kFO0?feature=player_detailpage
+-http://www.youtube.com/embed/kN5MtqAB_Yc?feature=player_detailpage
+-http://www.youtube.com/embed/VlN7K1-9QB0?feature=player_detailpage
+-http://www.youtube.com/embed/cvlpmmvB_m4?feature=player_detailpage
+-http://www.youtube.com/embed/VGV3fv-uZYI?feature=player_detailpage
+-https://drive.google.com/file/d/0B15KJwYa2uMFeWFyNlprY1VIczA/view?usp=sharing">MitĂłzis rap
+-Szaporodás, egyedfejlődés
+-http://www.youtube.com/watch?v=J_knnENhzwg">EmbrionĂˇlis fejlĹ‘dĂ©s
+-http://www.youtube.com/embed/J_knnENhzwg?feature=player_detailpage
+-Massive Attack Teardrop "http://www.youtube.com/embed/VdCQ9NxxyTo?feature=player_detailpage
+--->
+-
+-    <section class="section parallax-container context-dark" id="parducelvalaszto" data-parallax-img="images2//feketeparduc.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+-
+-	  <section class="section section-md bg-gray-dark text-center" id="hamarnembirod" data-type="anchor">
+-        <div class="container">
+-          <h2>Ha már nem bírod...</h2>
+-            <br>
+-  <a href="#nembirodshowhide" data-toggle="collapse">Videók megjelenítése / eltüntetése</a>
+-  <div id="nembirodshowhide" class="collapse">
+-            <br>
+-            <div class="row">
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/iPUwtyZglQI"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/XbWZ8In9Ois"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/cs-XZ_dN4Hc"></iframe></div>
+-            </div>
+-            <div class="row">
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/Are7HbnJXWk"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/EpUs6OFPonQ"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/lcrkIjFVQ0Q"></iframe></div>
+-            </div>
+-            <div class="row">
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/ZcBJdrj5XnA"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/pWQjU2GFReI"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/nAwDPmalScE"></iframe></div>
+-            </div>
+-            <div class="row">
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/2A4a3mplXPo"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/P-AYAv0IoWI"></iframe></div>
+-              <div class="col-sm-4" align="center" style="min-width: 400px"><iframe width="400" height="300" src="https://www.youtube.com/embed/wEQ2X2TAbgU"></iframe></div>
+-            </div>
+-            <br><br><br><br>		  
+-        </div>
+-      </section>
+-
+-      <section class="section parallax-container context-dark" id="keralavalaszto" data-parallax-img="images2//Teknos.jpg">
+-        <div class="parallax-content section-md">
+-          <div class="container text-center">
+-            <div class="row justify-content-center">
+-              <div class="col-lg-8 col-xl-6">
+-                <br><br><br><br><br><br><br><br><br><br><br>
+-              </div>
+-            </div>
+-          </div>
+-</div>
+-        </div>
+-      </section>
+-      
+-      <section class="section section-md bg-default" id="contacts" data-type="anchor">
+-        <div class="container text-center">
+-          <p class="subtitle"><span>Kapcsolat</span></p>
+-          <h2>Üzenetküldés</h2>
+-          <p>Van bármilyen kérdésed vagy javaslatod számomra? Bátran küldd el <br class="d-none d-md-inline-block">az alábbi űrlapon.</p>
+-          <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+-            <div class="row row-20">
+-              <div class="col-md-4">
+-                <div class="form-wrap form-wrap-icon input--nao">
+-                  <input class="form-input input__field--nao" id="contact-name" type="text" name="name" data-constraints="@Required">
+-                  <label class="form-label mdi mdi-account-outline input__label--nao" for="contact-name">Neved</label>
+-                  <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60" preserveaspectratio="none">
+-                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+-                  </svg>
+-                </div>
+-              </div>
+-              <div class="col-md-4">
+-                <div class="form-wrap form-wrap-icon input--nao">
+-                  <input class="form-input input__field--nao" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+-                  <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email">E-mail</label>
+-                  <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60" preserveaspectratio="none">
+-                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+-                  </svg>
+-                </div>
+-              </div>
+-              <div class="col-md-4">
+-                <div class="form-wrap form-wrap-icon input--nao">
+-                  <input class="form-input input__field--nao" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
+-                  <label class="form-label input__label--nao mdi mdi-tablet-android" for="contact-phone">Telefon</label>
+-                  <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60" preserveaspectratio="none">
+-                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+-                  </svg>
+-                </div>
+-              </div>
+-              <div class="col-12">
+-                <div class="form-wrap form-wrap-icon input--nao">
+-                  <textarea class="form-input input__field--nao" id="contact-message" name="message" data-constraints="@Required"></textarea>
+-                  <label class="form-label input__label--nao mdi mdi-message-text-outline" for="contact-message">Üzeneted</label>
+-                  <svg class="graphic graphic--nao" width="300%" height="50%" viewbox="0 0 1200 60" preserveaspectratio="none">
+-                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+-                  </svg>
+-                </div>
+-              </div>
+-              <div class="col-12 text-center form-button">
+-                <button class="button button-primary button-nina" type="submit">Üzenet küldése</button>
+-              </div>
+-            </div>
+-          </form>
+-        </div>
+-      </section>
+-
+       <footer class="section footer-classic context-dark bg-image" style="background-image: url(images2//pattern-bg.jpg)">
+         <div class="container">
+           <div class="row row-30">
+             <div class="col-md-4">

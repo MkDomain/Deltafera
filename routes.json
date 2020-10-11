@@ -1,0 +1,36 @@
+{
+	"/index.html": {
+		"original": "/index.html",
+		"mod": "mods/-index.patch"
+	},
+	"/bongeszo": {
+		"original": "/index.html",
+		"mod": "mods/-bongeszo.patch"
+	},
+	"/jegyzetek": {
+		"original": "/index.html",
+		"mod": "mods/-jegyzetek.patch"
+	},
+	"/velemeny": {
+		"original": "/index.html",
+		"mod": "mods/-velemeny.patch"
+	},
+	"/egyebek": {
+		"original": "/index.html",
+		"mod": "mods/-egyebek.patch"
+	},
+	"/": {
+		"original": "/index.html",
+		"mod": "mods/-index.patch"
+	},
+	"/images2/logobioszfera.png": {
+		"rewrite": "logobioszfera.png"
+	},
+	"/images2//logobioszfera.png": {
+		"rewrite": "logobioszfera.png"
+	},
+	"/(*)?": {
+		"original": "$REQ",
+		"mod": "none"
+	}
+}
