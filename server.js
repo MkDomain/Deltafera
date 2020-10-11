@@ -14,8 +14,11 @@ var mime = require('mime-types')
 var keys = Object.keys(routes);
 let cache = new Map();
 var log = new Stream();
-app.disable('x-powered-by');
 app.use(compression());
+app.use(function (req, res, next) {
+  res.removeHeader("X-Powered-By");
+  next();
+});
 app.get('/status', (req, resp) => {
 	var naplo = log.read();
 	var used = process.memoryUsage().heapUsed / 1024 / 1024;
