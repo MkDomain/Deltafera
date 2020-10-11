@@ -29,6 +29,9 @@
 	"/favicon.ico": {
 		"rewrite": "favicon.ico"
 	},
+	"/touch.png": {
+		"rewrite": "touch.png"
+	},
 	"/images2//logobioszfera.png": {
 		"rewrite": "logobioszfera.png"
 	},

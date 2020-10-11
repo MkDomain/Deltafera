@@ -15,12 +15,13 @@ Index: file.txt
 +	<meta name="description" content="A Biológia tanuláshoz elengedhetetlen oldal, a Bioszfera.com módosított változata.">
      <!--<link rel="icon" href="images/favicon.png" type="image/x-icon">-->
      <!-- Stylesheets-->
-     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface%7CLato:300i,400,900%7CMontserrat:100,300,400,500,600,700,900">
+-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface%7CLato:300i,400,900%7CMontserrat:100,300,400,500,600,700,900">
 -    <link rel="stylesheet" href="css/bootstrap.css">
 +	<link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/fonts.css">
      <link rel="stylesheet" href="css/style.css" id="main-styles-link">
 +	<link rel="shortcut icon" href="favicon.ico" />
++	<link rel="apple-touch-icon" href="touch.png">
      <!--[if lt IE 10]>
      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
      <script src="js/html5shiv.min.js"></script>
@@ -87,7 +88,7 @@ Index: file.txt
 +            <br><br>Kellemes böngészést és sikeres tanulást kívánok!<br><br>
 +            <a href="#bemutatkozas">Vizkievicz András</a>
 +			<h3>A Deltaféráról</h3>
-+			<br>A Deltaféra egy <a href="https://nodejs.org">Node.js</a>-ben írt alkalmazás amely futtatás közben módosítja a weboldalt. Feladata a weboldal "szabdalása" ezzel gyorsabb töltési idő és kisebb weboldal méret érhető el. A kód nem tartalmazza az eredeti weboldal kódját, a szoftver csak cache-eli az eredeti weboldalt, így nem kell minden kérésnél a bioszfera.com-ra csatlakozni.<br>Kérdések esetén: <a href="mailto:mkdomainyt@gmail.com">email cím</a><br><a href="https://github.com/MkDomain/Deltafera">Forráskód</a>
++			<br>A Deltaféra egy <a href="https://nodejs.org">Node.js</a>-ben írt bioszféra módosulat/módosítás amely futtatás közben módosítja a weboldalt. Feladata a weboldal "szabdalása" ezzel gyorsabb töltési idő és kisebb weboldal méret érhető el. A kód nem tartalmazza az eredeti weboldal kódját, a szoftver csak cache-eli az eredeti weboldalt, így nem kell minden kérésnél a bioszfera.com-ra csatlakozni.<br>Kérdések esetén: <a href="mailto:mkdomainyt@gmail.com">email cím</a><br><a href="https://github.com/MkDomain/Deltafera">Forráskód</a>
 +          </p>
 +        </div>
 +    </section>
@@ -123,10 +124,11 @@ Index: file.txt
              <br>
              <p align="justify">A felkészítés garanciája munkaközösségünk kiváló felkészültsége, továbbá a tanfolyamot vezető tanár 28 éves tanítási és sikeres érettségire felkészítő tapasztalata, illetve vizsgáztatói gyakorlata. A tanfolyamot vezető tanár Vizkievicz András, aki a kétszintű érettségi bevezetése óta, 14 éve folyamatosan ellát írásbelivel kapcsolatosan javítótanári, javításvezetői, szóbelin kérdezőtanári, ill. vizsgaelnöki feladatokat. A korábbi érettségi rendszerben pedig a felvételi feladatsorok készítésében közreműködött, mint feladatkészítő tanár.<br><br>
 -              Korábbi fakultációs csoportok diákjainak ajánlásai olvashatók <b><u><font color="green"><a href="#services"><strong>itt.</strong></a></font></u></b><br><br>
-+              Korábbi fakultációs csoportok diákjainak ajánlásai olvashatók <b><u><font color="green"><a href="velemeny"><strong>itt.</strong></a></font></u></b><br><br>
-               Az előző évi előkészítő tanfolyamon résztvevő diákok értékelése olvasható <a target="_blank" href="http://bioszfera.com/downloads/Az elokeszito tanfolyam ertekelese 2019.pdf"><strong><u>itt.</u></strong></a></font></u></b><br><br> 
+-              Az előző évi előkészítő tanfolyamon résztvevő diákok értékelése olvasható <a target="_blank" href="http://bioszfera.com/downloads/Az elokeszito tanfolyam ertekelese 2019.pdf"><strong><u>itt.</u></strong></a></font></u></b><br><br> 
 -			  A tanfolyamot vezető tanár Vizkievicz András bemutatkozása olvasható <b><u><font color="green"><a href="#testimonials"><strong>itt.</strong></a></font></b></u><br><br>Érdeklődni lehet <strong><b>Vizkievicz András</b></strong> vezető tanárnál, email-ben, telefonon vagy személyesen a Városmajori Gimnáziumban.<br><br>
-+			  A tanfolyamot vezető tanár Vizkievicz András bemutatkozása olvasható <b><u><font color="green"><a href="#bemutatkozas"><strong>itt.</strong></a></font></b></u><br><br>Érdeklődni lehet <strong><b>Vizkievicz András</b></strong> vezető tanárnál, email-ben, telefonon vagy személyesen a Városmajori Gimnáziumban.<br><br>
++              Korábbi fakultációs csoportok diákjainak ajánlásai olvashatók <u><font color="green"><a href="velemeny">itt.</a></font></u><br><br>
++              Az előző évi előkészítő tanfolyamon résztvevő diákok értékelése olvasható <a target="_blank" href="http://bioszfera.com/downloads/Az elokeszito tanfolyam ertekelese 2019.pdf"><u>itt.</u></a></u></b><br><br> 
++			  A tanfolyamot vezető tanár Vizkievicz András bemutatkozása olvasható <u><font color="green"><a href="#bemutatkozas">itt.</a></font></u><br><br>Érdeklődni lehet <strong><b>Vizkievicz András</b></strong> vezető tanárnál, email-ben, telefonon vagy személyesen a Városmajori Gimnáziumban.<br><br>
                <b><u><font color="green"><strong>Elérhetőségek:</strong></font></u></b> vizkieviczandras@gmail.com, telefon: 06308151140, Városmajori Gimnázium 1122 Városmajor u. 71.<br><br>
  			  <b><u><font color="green"><strong>Eredmények:</strong></font></u></b>
  			  A 2019 májusban végzett biológia fakultációs csoport diákjainak az írásbelin elért átlag teljesítménye 90%-os volt, 12 vizsgázóból 8-an értek el 90%-os, ill. a feletti eredményt. A 3 legjobb teljesítmény 98%, 96%, 94%-os volt.
