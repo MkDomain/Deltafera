@@ -147,7 +147,9 @@ keys.forEach(function(key, index) {
 		}
 	})
 });
-app.use(compression());
+app.use(compression({
+  filter: function () { return true; }
+}));
 
 function ensureDirectoryExistence(filePath) {
 	var dirname = path.dirname(filePath);
