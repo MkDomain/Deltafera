@@ -150,7 +150,8 @@ function exists(file) {
 	}
 	return false;
 }
-app.listen(80, () => {
+app.listen(process.env.PORT || 3000, () => {
 	log.push('[' + new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + '] Deltaféra elindult itt: http://localhost:3000<br>');
-	console.log('Deltaféra elindult itt: http://localhost:80')
+	var port = process.env.PORT || 3000;
+	console.log('Deltaféra elindult itt: http://localhost:' + port)
 })
