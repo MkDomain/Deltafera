@@ -36,7 +36,8 @@ Index: file.txt
                <div class="rd-navbar-main">
                  <div class="rd-navbar-panel">
                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                   <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
+-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
++                  <div class="rd-navbar-brand"><a class="brand" href="/"><img class="brand-logo-light" src="images2//logobioszfera.png" alt="" width="156" height="28"/></a></div>
                  </div>
                  <div class="rd-navbar-nav-wrap">
                    <ul class="rd-navbar-nav">
@@ -47,8 +48,8 @@ Index: file.txt
 -                    <li class="rd-nav-item"><a class="rd-nav-link" href="#erettsegi">Érettségiről</a></li>
 -                    <li class="rd-nav-item"><a class="rd-nav-link" href="#services">A diákok véleménye</a></li>
 -                    <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Elérhetőség</a></li>
-+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#about">Az oldalról</a></li>
-+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#bemutatkozas">Bemutatkozás</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="/#about">Az oldalról</a></li>
++                    <li class="rd-nav-item"><a class="rd-nav-link" href="/#bemutatkozas">Bemutatkozás</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="bongeszo">Böngésző</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="jegyzetek#erettsegi">Érettségiről</a></li>
 +                    <li class="rd-nav-item"><a class="rd-nav-link" href="velemeny">A diákok véleménye</a></li>
