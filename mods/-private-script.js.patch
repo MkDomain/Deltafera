@@ -1,0 +1,51 @@
+Index: file.txt
+===================================================================
+--- file.txt	
++++ file.txt	
+@@ -39,9 +39,8 @@
+ 			counter: $(".counter"),
+ 			progressLinear: $(".progress-linear"),
+ 			circleProgress: $(".progress-bar-circle"),
+ 			dateCountdown: $('.DateCountdown'),
+-			preloader: $(".preloader"),
+ 			captcha: $('.recaptcha'),
+ 			scroller: $(".scroll-wrap"),
+ 			lightGallery: $("[data-lightgallery='group']"),
+ 			lightGalleryItem: $("[data-lightgallery='item']"),
+@@ -59,30 +58,26 @@
+ 			maps: $(".google-map-container"),
+ 			parallaxJs: $('.parallax-scene'),
+ 			customWaypoints: $('[data-custom-scroll-to]'),
+ 			vide: $(".vide_bg"),
+-			tiltHover: $('.js-tilt')
++			tiltHover: $('.js-tilt'),
++			preloader: $(".preloader")
+ 		};
+ 
+ 	// Initialize scripts that require a loaded page
+ 	$window.on('load', function () {
+ 		// Page loader & Page transition
+-		if (plugins.preloader.length && !isNoviBuilder) {
++		if (false) {
+ 			pageTransition({
+ 				target: document.querySelector( '.page' ),
+ 				delay: 0,
+-				duration: 500,
+-				classIn: 'fadeIn',
+-				classOut: 'fadeOut',
++				duration: 1,
++				classIn: '',
++				classOut: '',
+ 				classActive: 'animated',
+ 				conditions: function (event, link) {
+ 					return !/(\#|callto:|tel:|mailto:|:\/\/)/.test(link) && !event.currentTarget.hasAttribute('data-lightgallery');
+ 				},
+-				onTransitionStart: function ( options ) {
+-					setTimeout( function () {
+-						plugins.preloader.removeClass('loaded');
+-					}, options.duration * .75 );
+-				},
+ 				onReady: function () {
+ 					plugins.preloader.addClass('loaded');
+ 					windowReady = true;
+ 				}

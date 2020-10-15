@@ -25,9 +25,23 @@ Index: file.txt
      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
      <script src="js/html5shiv.min.js"></script>
      <![endif]-->
-@@ -41,252 +43,74 @@
-     </div>
-     <div class="page">
+@@ -29,264 +31,78 @@
+   gtag('config', 'UA-124260181-1');
+ </script>
+ -->
+     
+-    
+-    <div class="preloader loaded">
+-      <div class="preloader-body">
+-        <div class="cssload-container">
+-          <div class="cssload-speeding-wheel"></div>
+-        </div>
+-        <p>Betöltés...</p>
+-      </div>
+-    </div>
+-    <div class="page">
++
++    <div class="page animated">
        <header class="section page-header">
          <div class="rd-navbar-wrap">
 -          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -292,7 +306,7 @@ Index: file.txt
                    </figure>
                    <div class="caption">
                      <h5 class="portfolio-title">Ha már nem bírod cérnával</h5>
-@@ -295,850 +119,8 @@
+@@ -295,850 +111,8 @@
            </div>
          </div>
        </section>

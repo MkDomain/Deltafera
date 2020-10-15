@@ -2,7 +2,12 @@ Index: file.txt
 ===================================================================
 --- file.txt	
 +++ file.txt	
-@@ -5,14 +5,16 @@
+@@ -1,18 +1,20 @@
+ <!DOCTYPE html>
+ <html class="wide wow-animation" lang="hu">
+   <head>
+-    <title>Bioszféra</title>
++    <title>Deltaféra - Vélemények</title>
      <meta name="format-detection" content="telephone=no">
      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +25,23 @@ Index: file.txt
      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
      <script src="js/html5shiv.min.js"></script>
      <![endif]-->
-@@ -41,630 +43,34 @@
-     </div>
-     <div class="page">
+@@ -29,642 +31,38 @@
+   gtag('config', 'UA-124260181-1');
+ </script>
+ -->
+     
+-    
+-    <div class="preloader loaded">
+-      <div class="preloader-body">
+-        <div class="cssload-container">
+-          <div class="cssload-speeding-wheel"></div>
+-        </div>
+-        <p>Betöltés...</p>
+-      </div>
+-    </div>
+-    <div class="page">
++
++    <div class="page animated">
        <header class="section page-header">
          <div class="rd-navbar-wrap">
 -          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -662,7 +681,7 @@ Index: file.txt
            <h2><font color="white">Mit gondolnak a diákok</font></h2>
            <div class="owl-carousel carousel-testimonials" data-items="1" data-md-items="2" data-dots="true" data-nav="true" data-stage-padding="15" data-loop="true"  data-margin="60" data-mouse-drag="true">
              <div class="box-testimonials">
-@@ -826,319 +232,9 @@
+@@ -826,319 +224,9 @@
              </div>
            </div>
          </div>

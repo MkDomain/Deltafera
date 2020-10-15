@@ -26,7 +26,26 @@ Index: file.txt
      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
      <script src="js/html5shiv.min.js"></script>
      <![endif]-->
-@@ -46,19 +48,18 @@
+@@ -29,36 +31,27 @@
+   gtag('config', 'UA-124260181-1');
+ </script>
+ -->
+     
+-    
+-    <div class="preloader loaded">
+-      <div class="preloader-body">
+-        <div class="cssload-container">
+-          <div class="cssload-speeding-wheel"></div>
+-        </div>
+-        <p>Betöltés...</p>
+-      </div>
+-    </div>
+-    <div class="page">
++
++    <div class="page animated">
+       <header class="section page-header">
+         <div class="rd-navbar-wrap">
+           <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
              <div class="rd-navbar-main-outer">
                <div class="rd-navbar-main">
                  <div class="rd-navbar-panel">
@@ -52,23 +71,23 @@ Index: file.txt
                  </div>
                </div>
              </div>
-@@ -70,39 +71,56 @@
+@@ -70,39 +63,56 @@
          <div class="section-xxl context-dark text-center">
            <div class="container">
              <div class="row justify-content-center">
                <div class="col-12 overflow-hidden">
-+			    <h1><span class="wow fadeInUp" data-wow-delay="200ms">Deltaféra - Bioszféra módosulat</span></h1><br>
++			    <h1><span class="" data-wow-delay="">Deltaféra - Bioszféra módosulat</span></h1><br>
                  <div class="group-md">
 -                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#emeltszintujegyzetek">Jegyzetek</a></p>
 -				  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#alaporasjegyzetek">NAT 2020</a></p>
 -                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#feladatok">Feladatok</a></p>
 -                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#animaciok">Animációk</a></p>
 -                  <br><br>
-+                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="jegyzetek">Jegyzetek</a></p>
-+				  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="jegyzetek#alaporasjegyzetek">NAT 2020</a></p>
-+                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="egyebek#feladatok">Feladatok</a></p>
-+                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="egyebek#animaciok">Animációk</a></p>
-+                  <p class="subtitle wow fadeInDown" data-wow-delay="300ms"><a class="cimsorlink" href="#about">Az oldalról</a></p>
++                  <p class="subtitle " data-wow-delay=""><a class="cimsorlink" href="jegyzetek">Jegyzetek</a></p>
++				  <p class="subtitle " data-wow-delay=""><a class="cimsorlink" href="jegyzetek#alaporasjegyzetek">NAT 2020</a></p>
++                  <p class="subtitle " data-wow-delay=""><a class="cimsorlink" href="egyebek#feladatok">Feladatok</a></p>
++                  <p class="subtitle " data-wow-delay=""><a class="cimsorlink" href="egyebek#animaciok">Animációk</a></p>
++                  <p class="subtitle " data-wow-delay=""><a class="cimsorlink" href="#about">Az oldalról</a></p>
 +                  <br>
                  </div>
 -                <h1><span class="wow fadeInUp" data-wow-delay="200ms">Bioszféra</span></h1>
@@ -121,7 +140,7 @@ Index: file.txt
                    A biológia tananyag feldolgozása a <strong><font color="blue"><a href="">bioszfera.com</a></font></strong> oldalon, az <strong><b>emelt szintű jegyzetek</b></strong> menüben található tematika alapján történik. A tanítás célja az érettségi követelményrendszerben megfogalmazott kompetenciák elsajátítása. Az oktatás metodikája alapvetően probléma- és feladatmegoldásra épül.<br><br>
                    <strong><u>Az órákon:</u></strong>
              </p>
-@@ -116,11 +134,11 @@
+@@ -116,11 +126,11 @@
                <li>elsajátítjuk annak a képességét, hogy a vizsgázó önállóan és logikus gondolatmenetbe illesztve, összefüggően és a nyelvhelyesség szabályainak megfelelően legyen képes megfogalmazni mondanivalóját.</li>
              </ul>
              <br>
@@ -136,7 +155,7 @@ Index: file.txt
  			  <b><u><font color="green"><strong>Eredmények:</strong></font></u></b>
  			  A 2019 májusban végzett biológia fakultációs csoport diákjainak az írásbelin elért átlag teljesítménye 90%-os volt, 12 vizsgázóból 8-an értek el 90%-os, ill. a feletti eredményt. A 3 legjobb teljesítmény 98%, 96%, 94%-os volt.
                A kiváló eredményt elért diákok tehetségesek, szorgalmasok, céltudatosak, ambiciózusak és nem utolsó sorban kitartóak voltak. Bárki számára elérhető cél e fenti eredmény, amennyiben az említett képességeket birtokolja.<br><br>
-@@ -129,20 +147,8 @@
+@@ -129,20 +139,8 @@
  </div>
          </div>
        </section>
@@ -157,7 +176,7 @@ Index: file.txt
        <section class="section section-md context-dark bg-image text-center" id="originalbioszfera" data-type="anchor" style="background-image: url(images2//pharma.jpg)">
          <div class="container text-center">
              <p class="body" align="left">
-@@ -151,9 +157,9 @@
+@@ -151,9 +149,9 @@
            </p>
          </div>
        </section>
@@ -168,7 +187,7 @@ Index: file.txt
            <h4 class="font-weight-bold">Bemutatkozás</h4>
            <br>          
            <div>
-@@ -189,956 +195,9 @@
+@@ -189,956 +187,9 @@
              </div>
            </div>
          </div>

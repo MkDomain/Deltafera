@@ -25,9 +25,23 @@ Index: file.txt
      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
      <script src="js/html5shiv.min.js"></script>
      <![endif]-->
-@@ -41,528 +43,31 @@
-     </div>
-     <div class="page">
+@@ -29,540 +31,35 @@
+   gtag('config', 'UA-124260181-1');
+ </script>
+ -->
+     
+-    
+-    <div class="preloader loaded">
+-      <div class="preloader-body">
+-        <div class="cssload-container">
+-          <div class="cssload-speeding-wheel"></div>
+-        </div>
+-        <p>Betöltés...</p>
+-      </div>
+-    </div>
+-    <div class="page">
++
++    <div class="page animated">
        <header class="section page-header">
          <div class="rd-navbar-wrap">
 -          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
@@ -562,7 +576,7 @@ Index: file.txt
          <div class="container text-center">
            <br><br><br>
            <h2>Feladatok</h2>
-@@ -606,229 +111,8 @@
+@@ -606,229 +103,8 @@
        </section>
  
        <section class="section parallax-container context-dark" id="zsirafelvalaszto" data-parallax-img="images2//zsiraf.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
@@ -792,7 +806,7 @@ Index: file.txt
          <div class="container">
            <h2>Médiafigyelő</h2>
              <h2><font size="3"><a title="" name="" target="_blank" classname="" class="" href="http://hvg.hu/tudomany/20170822_Ket_evig_teljes_sotetseg_volt_a_Foldon_a_dinok_kihalasa_utan" class="" classname="" target="_blank" name="" title="">Két évig teljes sötétség volt a Földön a dinók kihalása után</a></font></h2>
-@@ -983,65 +267,8 @@
+@@ -983,65 +259,8 @@
              <br>
  </div>
          </div>
@@ -858,7 +872,7 @@ Index: file.txt
  
  	  <section class="section section-md bg-gray-dark text-center" id="hamarnembirod" data-type="anchor">
          <div class="container">
-@@ -1085,59 +312,9 @@
+@@ -1085,59 +304,9 @@
            </div>
  </div>
          </div>
@@ -919,7 +933,7 @@ Index: file.txt
        <footer class="section footer-classic context-dark bg-image" style="background-image: url(images2//pattern-bg.jpg)">
          <div class="container">
            <div class="row row-30">
-@@ -1168,62 +345,8 @@
+@@ -1168,62 +337,8 @@
          <div class="row no-gutters social-container">
            <div class="col"><a class="social-inner" target="_blank" href="https://www.facebook.com/Bioszf%C3%A9ra-1049142428462360"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
          </div>

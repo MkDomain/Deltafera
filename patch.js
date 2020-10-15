@@ -37,3 +37,25 @@ patched.forEach(function(item, index) {
 		});
 	});
 })
+fs.readFile('private/script.js', 'utf8', function(e, d) {
+		if (e) {
+			console.log(e); 
+		}
+		fs.readFile('private/script-modified.js' , 'utf8', function(err, data) {
+			if (err) {
+				console.log(err); 
+			}
+			makePatch('-private-script.js', createPatch(d + '', data + ''))
+		});
+	});
+	fs.readFile('private/style.css', 'utf8', function(e, d) {
+		if (e) {
+			console.log(e); 
+		}
+		fs.readFile('private/style-modified.css' , 'utf8', function(err, data) {
+			if (err) {
+				console.log(err); 
+			}
+			makePatch('-private-style.css', createPatch(d + '', data + ''))
+		});
+	});

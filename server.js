@@ -7,7 +7,6 @@ const app = express()
 const diff = require('diff')
 const path = require('path')
 const fse = require('fs-extra');
-const axios = require('axios');
 var requester = require('sync-request')
 const routes = require('./routes.json');
 var mime = require('mime-types')
